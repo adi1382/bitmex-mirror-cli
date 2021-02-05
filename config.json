@@ -1,0 +1,198 @@
+{
+
+    "Settings": {
+        "Testnet": true,
+        "RatioUpdateRate": 3600,
+        "CalibrationRate": 60,
+        "LimitFilledTimeout": 10
+    },
+
+    "HostAccount": {
+        "ApiKey": "",
+        "ApiSecret": ""
+    },
+
+    "SubAccounts": {
+
+        "Account 1": {
+            "Enabled": true,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 2": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 3": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 4": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 5": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 6": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 7": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 8": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 9": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 10": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 11": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 12": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 13": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 14": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 15": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 16": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 17": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 18": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 19": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        },
+
+        "Account 20": {
+            "Enabled": false,
+            "CopyLeverage": true,
+            "BalanceProportion": false,
+            "FixedProportion": 1,
+            "ApiKey": "",
+            "Secret": ""
+        }
+    }
+
+}
