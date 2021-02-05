@@ -1,6 +1,6 @@
 package websocket
 
-import "Mirror/swagger"
+import "github.com/adi1382/bitmex-mirror-cli/swagger"
 
 type MarginSlice []swagger.Margin
 

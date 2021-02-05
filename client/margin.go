@@ -1,9 +1,9 @@
 package client
 
 import (
-	"Mirror/swagger"
-	"Mirror/websocket"
 	"fmt"
+	"github.com/adi1382/bitmex-mirror-cli/swagger"
+	"github.com/adi1382/bitmex-mirror-cli/websocket"
 )
 
 func (c *Client) CurrentMargin() websocket.MarginSlice {

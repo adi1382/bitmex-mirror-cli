@@ -1,7 +1,7 @@
 package websocket
 
 import (
-	"Mirror/swagger"
+	"github.com/adi1382/bitmex-mirror-cli/swagger"
 )
 
 type PositionSlice []swagger.Position

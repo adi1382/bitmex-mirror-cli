@@ -1,9 +1,9 @@
 package config
 
 import (
-	"Mirror/client"
-	"Mirror/tools"
 	"encoding/json"
+	"github.com/adi1382/bitmex-mirror-cli/client"
+	"github.com/adi1382/bitmex-mirror-cli/tools"
 	"strings"
 	"sync"
 	"sync/atomic"

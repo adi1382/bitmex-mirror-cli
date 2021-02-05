@@ -1,9 +1,9 @@
 package bitmex
 
 import (
-	"Mirror/tools"
-	"Mirror/websocket"
 	"encoding/json"
+	"github.com/adi1382/bitmex-mirror-cli/tools"
+	"github.com/adi1382/bitmex-mirror-cli/websocket"
 	"log"
 	"os"
 )

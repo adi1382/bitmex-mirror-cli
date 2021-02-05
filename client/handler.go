@@ -1,11 +1,11 @@
 package client
 
 import (
-	"Mirror/bitmex"
-	"Mirror/swagger"
-	"Mirror/websocket"
 	"crypto/rand"
 	"fmt"
+	"github.com/adi1382/bitmex-mirror-cli/bitmex"
+	"github.com/adi1382/bitmex-mirror-cli/swagger"
+	"github.com/adi1382/bitmex-mirror-cli/websocket"
 	"log"
 	"strings"
 	"time"

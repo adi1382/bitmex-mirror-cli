@@ -1,7 +1,7 @@
 package websocket
 
 import (
-	"Mirror/tools"
+	"github.com/adi1382/bitmex-mirror-cli/tools"
 	"github.com/gorilla/websocket"
 	"sync/atomic"
 	"time"

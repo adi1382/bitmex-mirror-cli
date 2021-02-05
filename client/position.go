@@ -1,10 +1,10 @@
 package client
 
 import (
-	"Mirror/swagger"
-	"Mirror/tools"
-	"Mirror/websocket"
 	"fmt"
+	"github.com/adi1382/bitmex-mirror-cli/swagger"
+	"github.com/adi1382/bitmex-mirror-cli/tools"
+	"github.com/adi1382/bitmex-mirror-cli/websocket"
 	"net/http"
 )
 
@@ -12,14 +12,14 @@ func (c *Client) UpdateLeverage(symbol string, leverage float64) {
 
 	InfoLogger.Printf("Updating leverage of %s to %f for client %s\n", symbol, leverage, c.ApiKey)
 
-
 	//c.SwaggerError(err, response)
 
 	var res swagger.Position
 	var response *http.Response
 	var err error
 
-	L :for {
+L:
+	for {
 		res, response, err = c.Rest.PositionApi.PositionUpdateLeverage(symbol, leverage)
 		switch c.SwaggerError(err, response) {
 		case 0:

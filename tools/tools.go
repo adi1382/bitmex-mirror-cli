@@ -1,8 +1,8 @@
 package tools
 
 import (
-	"Mirror/swagger"
 	"fmt"
+	"github.com/adi1382/bitmex-mirror-cli/swagger"
 	"github.com/sparrc/go-ping"
 	"log"
 	"net/http"

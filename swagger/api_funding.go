@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"Mirror/swagger/optional"
+	"github.com/adi1382/bitmex-mirror-cli/swagger/optional"
 )
 
 // Linger please

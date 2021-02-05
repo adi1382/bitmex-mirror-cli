@@ -1,7 +1,7 @@
 package client
 
 import (
-	"Mirror/swagger"
+	"github.com/adi1382/bitmex-mirror-cli/swagger"
 	"net/http"
 	"strconv"
 	"strings"

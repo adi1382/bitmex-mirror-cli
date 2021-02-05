@@ -1,12 +1,12 @@
 package websocket
 
 import (
-	"Mirror/tools"
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	"github.com/adi1382/bitmex-mirror-cli/tools"
 	"github.com/gorilla/websocket"
 	"log"
 	"net/url"

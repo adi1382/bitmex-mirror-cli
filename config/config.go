@@ -1,9 +1,9 @@
 package config
 
 import (
-	"Mirror/tools"
 	"encoding/json"
 	"fmt"
+	"github.com/adi1382/bitmex-mirror-cli/tools"
 	"os"
 	"time"
 )

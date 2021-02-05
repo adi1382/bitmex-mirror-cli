@@ -1,13 +1,13 @@
 package main
 
 import (
-	"Mirror/client"
-	"Mirror/config"
-	"Mirror/keys"
-	"Mirror/tools"
-	"Mirror/websocket"
-	"Mirror/wmic"
 	"fmt"
+	"github.com/adi1382/bitmex-mirror-cli/client"
+	"github.com/adi1382/bitmex-mirror-cli/config"
+	"github.com/adi1382/bitmex-mirror-cli/keys"
+	"github.com/adi1382/bitmex-mirror-cli/tools"
+	"github.com/adi1382/bitmex-mirror-cli/websocket"
+	"github.com/adi1382/bitmex-mirror-cli/wmic"
 	"log"
 	"os"
 	"strings"
