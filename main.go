@@ -46,6 +46,8 @@ func init() {
 
 // Usage example
 func main() {
+	fmt.Printf("Dapper Trader (dappertrader.com)\n\n")
+	//fmt.Println(time.Now().Add(60 * 24 * time.Hour).Unix())
 	c := wmic.GetHashedKey()
 	if c != keys.HashedKey {
 		fmt.Println("Unauthorized access to mirror trader detected.")
@@ -54,7 +56,7 @@ func main() {
 		os.Exit(-1)
 	}
 
-	const expireTime = 1605058650
+	const expireTime = 1617721811
 	//fmt.Println(time.Now().Add(45 * 24 * time.Hour).Unix())
 	//fmt.Println(time.Now().Add(time.Minute*1).Unix())
 	//fmt.Println(time.Now().Add(time.Hour*24).Unix())

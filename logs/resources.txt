@@ -9001,3 +9001,10 @@ MONITOR: 2020/09/27 07:07:55.508653 {"Alloc":316032,"TotalAlloc":316032,"Sys":64
 MONITOR: 2020/09/27 07:07:56.510944 {"Alloc":326264,"TotalAlloc":326264,"Sys":6443208,"Mallocs":2012,"Frees":129,"LiveObjects":1883,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
 MONITOR: 2020/09/27 07:07:57.515227 {"Alloc":327000,"TotalAlloc":327000,"Sys":6443208,"Mallocs":2020,"Frees":129,"LiveObjects":1891,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
 MONITOR: 2020/09/27 07:07:58.515558 {"Alloc":328776,"TotalAlloc":328776,"Sys":6443208,"Mallocs":2036,"Frees":129,"LiveObjects":1907,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
+MONITOR: 2021/02/05 15:11:09.667177 {"Alloc":373888,"TotalAlloc":373888,"Sys":6705352,"Mallocs":4055,"Frees":110,"LiveObjects":3945,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
+MONITOR: 2021/02/05 15:11:10.668114 {"Alloc":383440,"TotalAlloc":383440,"Sys":6705352,"Mallocs":4174,"Frees":130,"LiveObjects":4044,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
+MONITOR: 2021/02/05 15:11:11.669041 {"Alloc":385104,"TotalAlloc":385104,"Sys":6705352,"Mallocs":4188,"Frees":130,"LiveObjects":4058,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
+MONITOR: 2021/02/05 15:13:00.924519 {"Alloc":441128,"TotalAlloc":441128,"Sys":6705352,"Mallocs":4580,"Frees":157,"LiveObjects":4423,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
+MONITOR: 2021/02/05 15:13:01.925431 {"Alloc":450480,"TotalAlloc":450480,"Sys":6705352,"Mallocs":4698,"Frees":177,"LiveObjects":4521,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
+MONITOR: 2021/02/05 15:13:02.926361 {"Alloc":451216,"TotalAlloc":451216,"Sys":6705352,"Mallocs":4706,"Frees":177,"LiveObjects":4529,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
+MONITOR: 2021/02/05 15:13:03.927292 {"Alloc":451952,"TotalAlloc":451952,"Sys":6705352,"Mallocs":4714,"Frees":177,"LiveObjects":4537,"PauseTotalNs":0,"NumGC":0,"NumGoroutine":3}
