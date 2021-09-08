@@ -3,7 +3,7 @@ package tools
 import (
 	"fmt"
 	"github.com/adi1382/bitmex-mirror-cli/swagger"
-	"github.com/sparrc/go-ping"
+	"github.com/go-ping/ping"
 	"log"
 	"net/http"
 	"os"

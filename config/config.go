@@ -9,6 +9,7 @@ import (
 )
 
 type Settings struct {
+	Port               int
 	Testnet            bool
 	RatioUpdateRate    int
 	CalibrationRate    int
@@ -42,6 +43,14 @@ func LoadConfig(path string) Config {
 }
 
 func checkConfig(config *Config) {
+
+	if config.Settings.Port == 0 {
+		fmt.Println("Invalid Port.")
+		fmt.Println("Closing Bot in 5 seconds....")
+		time.Sleep(time.Second * 5)
+		os.Exit(-1)
+	}
+
 	apiKeys := make([]string, 0, 5)
 	hostAPI := config.HostAccount.ApiKey
 

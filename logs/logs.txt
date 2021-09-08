@@ -13833,3 +13833,1818 @@ INFO: 2021/02/05 15:43:39 main.go:44:
 
 
 
+INFO: 2021/02/10 19:31:58 main.go:42: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/10 19:33:06 main.go:42: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/13 13:33:45 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/13 13:33:58 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/18 23:34:35 main.go:42: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/18 23:35:20 main.go:42: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/21 07:39:34 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/21 07:40:50 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/21 07:40:50 websocket.go:77: 
+
+
+Connecting to:  wss://testnet.bitmex.com/realtimemd
+INFO: 2021/02/21 07:40:51 client.go:123: New Client Initializing |  hostAccount  |  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:209: Initiating Rest object on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:216: Initiated Rest object on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:220: Initiating connection of client  IvD-a6aM_db_gKa_kP_wcEgV  to sockets.
+INFO: 2021/02/21 07:40:51 client.go:224: Initiated connection of client  IvD-a6aM_db_gKa_kP_wcEgV  to sockets.
+INFO: 2021/02/21 07:40:51 client.go:229: Authenticating websocket connection of client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:149: New Client Initialized |  hostAccount  |  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/21 07:40:51 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/21 07:40:51 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/21 07:40:51 client.go:243: Subscribing tables  [order position margin]  on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:123: New Client Initializing |    |  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:209: Initiating Rest object on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:216: Initiated Rest object on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:220: Initiating connection of client  Gw169Ql6i9uD_f9pShjbRg5B  to sockets.
+INFO: 2021/02/21 07:40:51 client.go:224: Initiated connection of client  Gw169Ql6i9uD_f9pShjbRg5B  to sockets.
+INFO: 2021/02/21 07:40:51 client.go:229: Authenticating websocket connection of client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:149: New Client Initialized |    |  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/21 07:40:51 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/21 07:40:51 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/21 07:40:51 client.go:243: Subscribing tables  [order position margin]  on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:110: Waiting For partials
+INFO: 2021/02/21 07:40:51 client.go:110: Waiting For partials
+INFO: 2021/02/21 07:40:51 client.go:110: Waiting For partials
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:40:51 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:40:51 client.go:337: Manipulating  order  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 websocket_order.go:48: Order Partials Processing
+INFO: 2021/02/21 07:40:51 websocket_order.go:154: Order Partials Processed
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:40:51 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:40:51 client.go:337: Manipulating  position  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:40:51 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:40:51 client.go:337: Manipulating  margin  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 websocket_margin.go:52: Margin Partials Processing
+INFO: 2021/02/21 07:40:51 client.go:116: Partials received
+INFO: 2021/02/21 07:40:51 websocket_margin.go:179: Margin Partials Processed
+INFO: 2021/02/21 07:40:51 margin.go:17: Fetching Current margin for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:40:51 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:40:51 client.go:337: Manipulating  order  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 websocket_order.go:48: Order Partials Processing
+INFO: 2021/02/21 07:40:51 websocket_order.go:154: Order Partials Processed
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:40:51 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:40:51 client.go:337: Manipulating  position  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:40:51 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:40:51 client.go:337: Manipulating  margin  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 websocket_margin.go:52: Margin Partials Processing
+INFO: 2021/02/21 07:40:51 client.go:116: Partials received
+INFO: 2021/02/21 07:40:51 websocket_margin.go:179: Margin Partials Processed
+INFO: 2021/02/21 07:40:51 client.go:110: Waiting For partials
+INFO: 2021/02/21 07:40:51 client.go:116: Partials received
+INFO: 2021/02/21 07:40:51 margin.go:17: Fetching Current margin for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 client.go:116: Partials received
+INFO: 2021/02/21 07:40:51 pingPong.go:12: Ping Pong protocol Initiated
+INFO: 2021/02/21 07:40:51 position.go:53: Fetching active positons for client IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 position.go:53: Fetching active positons for client Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:51 position.go:53: Fetching active positons for client IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:51 position.go:53: Fetching active positons for client Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:52 client.go:166: Margin Balance is:  1.27821816e+08
+INFO: 2021/02/21 07:40:52 client.go:168: Updating margin on  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:52 client.go:176: Margin updated on  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:40:52 client.go:166: Margin Balance is:  9.632693e+07
+INFO: 2021/02/21 07:40:52 client.go:168: Updating margin on  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:40:52 client.go:176: Margin updated on  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:37 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:37 handler.go:104: Manipulating  order  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 handler.go:117: New Order Inserted for Client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 handler.go:183: New Order placed for symbol  XBTUSD  on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:37 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:37 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:37 client.go:337: Manipulating  order  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:37 websocket_order.go:159: Order Inserts Processing
+INFO: 2021/02/21 07:41:37 websocket_order.go:287: Order Inserts Processed
+INFO: 2021/02/21 07:41:37 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:37 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:37 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:37 client.go:337: Manipulating  position  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:37 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:37 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:37 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:37 client.go:337: Manipulating  margin  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:37 websocket_margin.go:313: Margin Updates Processing
+INFO: 2021/02/21 07:41:37 websocket_margin.go:529: Margin Updates Processed
+INFO: 2021/02/21 07:41:37 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:37 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:37 handler.go:104: Manipulating  position  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 handler.go:324: Position Update from mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:37 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:37 handler.go:104: Manipulating  margin  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:37 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:37 client.go:337: Manipulating  order  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 websocket_order.go:159: Order Inserts Processing
+INFO: 2021/02/21 07:41:37 websocket_order.go:287: Order Inserts Processed
+INFO: 2021/02/21 07:41:37 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:37 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:37 client.go:337: Manipulating  margin  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 websocket_margin.go:313: Margin Updates Processing
+INFO: 2021/02/21 07:41:37 websocket_margin.go:529: Margin Updates Processed
+INFO: 2021/02/21 07:41:37 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:37 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:37 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:37 client.go:337: Manipulating  position  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:40 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:40 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:40 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:40 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:40 client.go:337: Manipulating  position  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:40 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:40 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:40 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:40 handler.go:104: Manipulating  position  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:40 handler.go:324: Position Update from mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:40 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:40 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:40 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:40 client.go:337: Manipulating  position  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:44 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:44 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:44 client.go:337: Manipulating  order  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:44 websocket_order.go:292: Order Updates Processing
+INFO: 2021/02/21 07:41:44 websocket_order.go:472: Order Updates Processed
+INFO: 2021/02/21 07:41:44 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:44 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:44 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:44 client.go:337: Manipulating  position  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:44 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:44 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:44 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:44 client.go:337: Manipulating  margin  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:44 websocket_margin.go:313: Margin Updates Processing
+INFO: 2021/02/21 07:41:44 websocket_margin.go:529: Margin Updates Processed
+INFO: 2021/02/21 07:41:44 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:44 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:44 handler.go:104: Manipulating  order  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:190: New Order update received for Client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:210: Amended order detected for Client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:313: Order amended for symbol  XBTUSD  on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:318: 0  Orders canceled for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:44 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:44 handler.go:104: Manipulating  position  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:324: Position Update from mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:44 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:44 handler.go:104: Manipulating  margin  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:44 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:44 client.go:337: Manipulating  order  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 websocket_order.go:292: Order Updates Processing
+INFO: 2021/02/21 07:41:44 websocket_order.go:472: Order Updates Processed
+INFO: 2021/02/21 07:41:44 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:44 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:44 client.go:337: Manipulating  position  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:44 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:44 client.go:337: Manipulating  margin  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:44 websocket_margin.go:313: Margin Updates Processing
+INFO: 2021/02/21 07:41:44 websocket_margin.go:529: Margin Updates Processed
+INFO: 2021/02/21 07:41:45 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:45 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:45 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:45 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:45 handler.go:104: Manipulating  position  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:45 handler.go:324: Position Update from mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:45 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:45 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:45 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:45 client.go:337: Manipulating  position  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:45 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:45 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:45 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:45 client.go:337: Manipulating  position  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:50 handler.go:104: Manipulating  order  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:190: New Order update received for Client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:210: Amended order detected for Client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:313: Order amended for symbol  XBTUSD  on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:50 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:50 client.go:337: Manipulating  order  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:50 websocket_order.go:292: Order Updates Processing
+INFO: 2021/02/21 07:41:50 websocket_order.go:472: Order Updates Processed
+INFO: 2021/02/21 07:41:50 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:50 client.go:337: Manipulating  position  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:50 client.go:337: Manipulating  margin  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:50 websocket_margin.go:313: Margin Updates Processing
+INFO: 2021/02/21 07:41:50 websocket_margin.go:529: Margin Updates Processed
+INFO: 2021/02/21 07:41:50 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:50 client.go:337: Manipulating  position  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:50 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:50 client.go:337: Manipulating  position  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:50 handler.go:318: 0  Orders canceled for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:50 handler.go:104: Manipulating  margin  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:50 handler.go:104: Manipulating  position  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:324: Position Update from mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:50 handler.go:104: Manipulating  position  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:50 handler.go:324: Position Update from mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:51 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:51 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:51 client.go:337: Manipulating  order  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:51 websocket_order.go:292: Order Updates Processing
+INFO: 2021/02/21 07:41:51 websocket_order.go:472: Order Updates Processed
+INFO: 2021/02/21 07:41:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:51 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:51 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:51 client.go:337: Manipulating  position  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:51 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:51 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:51 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:51 client.go:337: Manipulating  margin  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:51 websocket_margin.go:313: Margin Updates Processing
+INFO: 2021/02/21 07:41:51 websocket_margin.go:529: Margin Updates Processed
+INFO: 2021/02/21 07:41:52 position.go:53: Fetching active positons for client IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:52 position.go:53: Fetching active positons for client Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:54 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:54 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:54 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:54 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:54 handler.go:104: Manipulating  order  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:54 handler.go:190: New Order update received for Client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:54 handler.go:318: 1  Orders canceled for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:54 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:54 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:54 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:54 client.go:337: Manipulating  order  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:54 websocket_order.go:292: Order Updates Processing
+INFO: 2021/02/21 07:41:54 websocket_order.go:472: Order Updates Processed
+INFO: 2021/02/21 07:41:54 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:54 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:54 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:54 client.go:337: Manipulating  position  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:54 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:54 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:54 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:54 client.go:337: Manipulating  margin  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:54 websocket_margin.go:313: Margin Updates Processing
+INFO: 2021/02/21 07:41:54 websocket_margin.go:529: Margin Updates Processed
+INFO: 2021/02/21 07:41:55 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:55 handler.go:104: Manipulating  position  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 handler.go:324: Position Update from mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:55 handler.go:104: Manipulating  margin  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:55 client.go:337: Manipulating  order  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 websocket_order.go:292: Order Updates Processing
+INFO: 2021/02/21 07:41:55 websocket_order.go:472: Order Updates Processed
+INFO: 2021/02/21 07:41:55 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:55 client.go:337: Manipulating  position  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:55 client.go:337: Manipulating  margin  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 websocket_margin.go:313: Margin Updates Processing
+INFO: 2021/02/21 07:41:55 websocket_margin.go:529: Margin Updates Processed
+INFO: 2021/02/21 07:41:55 client.go:287: Received new message in Data Handler for client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:55 client.go:337: Manipulating  position  table on client  IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:41:55 handler.go:86: Starting Mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 handler.go:95: Calculating ratio on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:55 handler.go:104: Manipulating  position  from mirror on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 handler.go:324: Position Update from mirror for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 client.go:287: Received new message in Data Handler for client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:41:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 07:41:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 07:41:55 client.go:337: Manipulating  position  table on client  Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 07:42:53 position.go:53: Fetching active positons for client IvD-a6aM_db_gKa_kP_wcEgV
+INFO: 2021/02/21 07:42:53 position.go:53: Fetching active positons for client Gw169Ql6i9uD_f9pShjbRg5B
+INFO: 2021/02/21 08:04:21 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/21 08:04:21 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/02/21 08:04:22 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:22 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:22 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:22 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/21 08:04:22 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/21 08:04:22 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:22 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:22 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/21 08:04:22 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/21 08:04:22 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/21 08:04:22 client.go:110: Waiting For partials
+INFO: 2021/02/21 08:04:22 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:22 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:22 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:22 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:22 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/21 08:04:22 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/21 08:04:22 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:22 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:22 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/21 08:04:22 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/21 08:04:22 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/21 08:04:22 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:22 client.go:110: Waiting For partials
+INFO: 2021/02/21 08:04:22 client.go:110: Waiting For partials
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:23 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:23 client.go:337: Manipulating  order  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 websocket_order.go:48: Order Partials Processing
+INFO: 2021/02/21 08:04:23 websocket_order.go:154: Order Partials Processed
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:23 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:23 client.go:337: Manipulating  order  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 websocket_order.go:48: Order Partials Processing
+INFO: 2021/02/21 08:04:23 websocket_order.go:154: Order Partials Processed
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:23 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:23 client.go:337: Manipulating  margin  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 websocket_margin.go:52: Margin Partials Processing
+INFO: 2021/02/21 08:04:23 websocket_margin.go:179: Margin Partials Processed
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:23 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:23 client.go:337: Manipulating  margin  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 websocket_margin.go:52: Margin Partials Processing
+INFO: 2021/02/21 08:04:23 websocket_margin.go:179: Margin Partials Processed
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:23 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:23 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 client.go:116: Partials received
+INFO: 2021/02/21 08:04:23 client.go:116: Partials received
+INFO: 2021/02/21 08:04:23 client.go:110: Waiting For partials
+INFO: 2021/02/21 08:04:23 margin.go:17: Fetching Current margin for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:23 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:23 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 client.go:116: Partials received
+INFO: 2021/02/21 08:04:23 margin.go:17: Fetching Current margin for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 client.go:116: Partials received
+INFO: 2021/02/21 08:04:23 pingPong.go:12: Ping Pong protocol Initiated
+INFO: 2021/02/21 08:04:23 position.go:53: Fetching active positons for client Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:23 position.go:53: Fetching active positons for client -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:23 position.go:13: Updating leverage of XBTUSD to 1.000000 for client -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 client.go:166: Margin Balance is:  1.3272135e+07
+INFO: 2021/02/21 08:04:24 client.go:168: Updating margin on  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 client.go:176: Margin updated on  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:24 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:24 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:24 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:24 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 client.go:166: Margin Balance is:  1.0573956e+07
+INFO: 2021/02/21 08:04:24 client.go:168: Updating margin on  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:24 client.go:176: Margin updated on  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:24 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:24 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:24 client.go:337: Manipulating  order  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 websocket_order.go:159: Order Inserts Processing
+INFO: 2021/02/21 08:04:24 websocket_order.go:287: Order Inserts Processed
+INFO: 2021/02/21 08:04:24 position.go:53: Fetching active positons for client Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:24 position.go:53: Fetching active positons for client -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:24 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:24 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:24 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:24 client.go:337: Manipulating  margin  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:24 websocket_margin.go:313: Margin Updates Processing
+INFO: 2021/02/21 08:04:24 websocket_margin.go:529: Margin Updates Processed
+INFO: 2021/02/21 08:04:25 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:25 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:25 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:25 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:25 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:25 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:25 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:25 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:25 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:25 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:25 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:25 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:25 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:25 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:30 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:30 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:30 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:30 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:30 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:30 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:30 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:30 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:30 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:30 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:30 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:30 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:30 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:30 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:35 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:35 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:35 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:35 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:35 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:35 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:35 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:35 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:35 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:35 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:35 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:35 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:35 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:35 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:40 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:40 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:40 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:40 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:40 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:40 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:40 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:40 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:40 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:40 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:40 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:40 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:40 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:40 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:45 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:45 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:45 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:45 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:45 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:45 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:45 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:45 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:45 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:45 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:45 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:45 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:45 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:45 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:50 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:50 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:50 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:50 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:50 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:50 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:50 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:50 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:55 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:55 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:55 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:55 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:04:55 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:55 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:04:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:04:55 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:04:55 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:00 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:00 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:00 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:00 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:00 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:00 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:00 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:00 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:00 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:00 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:00 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:00 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:00 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:00 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:05 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:05 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:05 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:05 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:05 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:05 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:05 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:05 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:05 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:05 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:05 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:05 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:05 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:05 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:10 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:10 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:10 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:10 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:10 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:10 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:10 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:10 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:10 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:10 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:10 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:10 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:10 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:10 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:15 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:15 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:15 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:15 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:15 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:15 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:15 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:15 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:15 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:15 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:15 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:15 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:15 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:15 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:20 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:20 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:20 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:20 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:20 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:20 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:20 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:20 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:20 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:20 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:20 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:20 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:20 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:20 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:25 position.go:53: Fetching active positons for client Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:25 position.go:53: Fetching active positons for client -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:25 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:25 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:25 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:25 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:25 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:25 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:25 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:25 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:25 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:25 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:25 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:25 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:25 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:25 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:30 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:30 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:30 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:30 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:30 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:30 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:30 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:30 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:30 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:30 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:30 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:30 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:30 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:30 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:35 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:35 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:35 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:35 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:35 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:35 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:35 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:35 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:35 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:35 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:35 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:35 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:35 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:35 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:40 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:40 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:40 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:40 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:40 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:40 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:40 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:40 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:40 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:40 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:40 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:40 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:40 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:40 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:45 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:45 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:45 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:45 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:45 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:45 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:45 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:45 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:45 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:45 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:45 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:45 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:45 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:45 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:50 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:50 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:50 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:50 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:50 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:50 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:50 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:50 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:50 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:50 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:55 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:55 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:55 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:55 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:05:55 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:55 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:55 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:05:55 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:05:55 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:05:55 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:00 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:00 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:06:00 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:06:00 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:00 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:00 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:00 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:06:00 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:06:00 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:00 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:00 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:06:00 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:06:00 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:06:00 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:06:05 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:05 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:06:05 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:06:05 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:05 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:06:05 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:06:05 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:06:05 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:06:05 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:05 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:05 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:06:05 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:06:05 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:05 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:10 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:10 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:06:10 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:06:10 client.go:337: Manipulating  position  table on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:10 handler.go:86: Starting Mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:10 handler.go:95: Calculating ratio on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:10 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:06:10 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:06:10 handler.go:104: Manipulating  position  from mirror on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:10 handler.go:324: Position Update from mirror for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/21 08:06:10 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/21 08:06:10 bitmex.go:87: Decoding Socket Message
+INFO: 2021/02/21 08:06:10 bitmex.go:120: Socket Message Decoded
+INFO: 2021/02/21 08:06:10 client.go:337: Manipulating  position  table on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:12 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/24 07:22:12 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/02/24 07:22:13 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:13 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:13 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:13 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:22:13 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:22:13 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:13 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:13 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:22:13 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:22:13 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:22:13 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:13 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:13 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:13 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:13 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:22:13 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:22:13 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:13 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:13 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:22:13 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:22:13 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:22:13 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:13 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:22:13 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:22:13 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:22:13 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:13 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:13 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/02/24 07:22:13 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614131945,"539293022ab28ce3509dd25af8322679c66e522f272935185492fce0080b0db7"]}}]
+ERROR: 2021/02/24 07:22:13 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/02/24 07:22:13 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/02/24 07:22:13 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/02/24 07:22:13 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614131945,"a500e22d4ba387f20cf33b18f0d7785cfbc52352c4d0095bf9a98d0c46808a40"]}}]
+ERROR: 2021/02/24 07:22:13 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/02/24 07:22:13 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:13 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/02/24 07:22:13 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:28 main.go:45: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/24 07:22:28 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/02/24 07:22:29 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:29 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:29 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:29 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:22:29 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:22:29 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:29 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:29 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:22:29 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:22:29 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:22:29 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:29 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:29 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:29 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:29 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:22:29 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:22:29 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:29 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:29 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:22:29 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:22:29 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:22:29 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:29 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:22:29 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:22:29 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:22:29 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:29 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:29 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/02/24 07:22:29 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614131961,"1e378126236aa45d95578db0aa4f03932b13624c8ca3a2c411e285aec26ae811"]}}]
+ERROR: 2021/02/24 07:22:29 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/02/24 07:22:29 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/02/24 07:22:29 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/02/24 07:22:29 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614131961,"5519b3871ac82189919a4189c765cf993bf98175d1e00ae3e5acd94e0e34a355"]}}]
+ERROR: 2021/02/24 07:22:29 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/02/24 07:22:29 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:29 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/02/24 07:22:29 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:46 main.go:45: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/24 07:22:46 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/02/24 07:22:47 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:47 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:47 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:47 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:22:47 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:22:47 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:47 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:47 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:22:47 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:22:47 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:22:47 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:47 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:47 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:47 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:47 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:22:47 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:22:47 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:47 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:47 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:22:47 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:22:47 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:22:47 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:22:47 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:47 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:22:47 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:22:47 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:22:47 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:47 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/02/24 07:22:47 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614131979,"67043c34cb2c01fb84d9c458e6e944595cae22152c85e129bf59ffb0460ff0fc"]}}]
+ERROR: 2021/02/24 07:22:47 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/02/24 07:22:47 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/02/24 07:22:47 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/02/24 07:22:47 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614131979,"f6c68cf204948501802f038501aa215daece041cf594862e51c889215a42c81a"]}}]
+ERROR: 2021/02/24 07:22:47 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/02/24 07:22:47 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:47 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/02/24 07:22:47 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:22:59 main.go:45: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/24 07:22:59 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/02/24 07:23:00 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:00 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:00 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:00 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:23:00 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:23:00 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:00 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:00 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:23:00 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:23:00 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:23:00 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:00 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:00 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:00 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:00 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:23:00 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:23:00 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:00 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:00 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:23:00 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:23:00 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:23:00 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:23:00 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:23:00 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:00 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:23:00 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:00 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:00 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/02/24 07:23:00 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614131992,"6f7b7445bc8bd9eeb85451f1290b38acf527d39611c967baa0db8f89a2b6e0b7"]}}]
+ERROR: 2021/02/24 07:23:00 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/02/24 07:23:00 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/02/24 07:23:00 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/02/24 07:23:00 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614131992,"ee818b8ff08f5425134e60232479e440ec930b9d6de18605dfae14b0c1e74030"]}}]
+ERROR: 2021/02/24 07:23:00 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/02/24 07:23:00 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:00 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/02/24 07:23:00 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:09 main.go:45: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/02/24 07:23:09 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/02/24 07:23:09 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:09 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:09 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:09 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:23:09 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/02/24 07:23:09 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:09 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:09 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:23:09 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:23:09 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:23:09 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:09 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:09 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:09 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:09 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:23:09 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/02/24 07:23:09 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:09 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:09 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/02/24 07:23:09 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/02/24 07:23:09 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/02/24 07:23:09 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:09 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:23:09 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:23:09 client.go:110: Waiting For partials
+INFO: 2021/02/24 07:23:10 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/02/24 07:23:10 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:10 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/02/24 07:23:10 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614132001,"0e679d83dd0e198863dd8e45e7bea421db42f5b565a42933558058c707e64b05"]}}]
+ERROR: 2021/02/24 07:23:10 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/02/24 07:23:10 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:10 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/02/24 07:23:10 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/02/24 07:23:10 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/02/24 07:23:10 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614132001,"c1959b4fe817fcf9468e9a4d29e35b7d7cb7e5bf44bc3d6cb230581b11c2aeff"]}}]
+ERROR: 2021/02/24 07:23:10 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/02/24 07:23:10 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/03/01 23:15:30 main.go:44: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/03/01 23:15:30 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/03/01 23:15:39 main.go:44: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/03/01 23:15:39 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/03/01 23:15:41 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/01 23:15:41 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/01 23:15:41 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/01 23:15:41 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/03/01 23:15:41 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/03/01 23:15:41 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/01 23:15:41 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/01 23:15:41 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/03/01 23:15:41 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/03/01 23:15:41 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/03/01 23:15:41 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/01 23:15:41 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/01 23:15:41 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/01 23:15:41 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/01 23:15:41 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/03/01 23:15:41 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/03/01 23:15:41 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/01 23:15:41 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/01 23:15:41 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/03/01 23:15:41 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/03/01 23:15:41 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/03/01 23:15:41 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/01 23:15:41 client.go:110: Waiting For partials
+INFO: 2021/03/01 23:15:41 client.go:110: Waiting For partials
+INFO: 2021/03/01 23:15:41 client.go:110: Waiting For partials
+INFO: 2021/03/01 23:15:41 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/01 23:15:41 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/01 23:15:41 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/03/01 23:15:41 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614621153,"5dda6f33ed86116530fbbee8b357e4f9eddf2677c8e4f8c78862675af4d19dae"]}}]
+ERROR: 2021/03/01 23:15:41 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/03/01 23:15:41 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/01 23:15:41 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/03/01 23:15:41 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/01 23:15:41 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/03/01 23:15:41 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614621153,"1c252ccce051518408e6753004272d2bd5956eac8c4658cd9c763d23dd962546"]}}]
+ERROR: 2021/03/01 23:15:41 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/03/01 23:15:41 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/03/13 14:24:07 main.go:44: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/03/13 14:24:07 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/03/13 14:24:10 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:10 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:10 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:10 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/03/13 14:24:10 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/03/13 14:24:10 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:10 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:10 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/03/13 14:24:10 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/03/13 14:24:10 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/03/13 14:24:10 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:10 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:10 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:10 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:10 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/03/13 14:24:10 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/03/13 14:24:10 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:10 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:10 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/03/13 14:24:10 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/03/13 14:24:10 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/03/13 14:24:10 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:10 client.go:110: Waiting For partials
+INFO: 2021/03/13 14:24:10 client.go:110: Waiting For partials
+INFO: 2021/03/13 14:24:10 client.go:110: Waiting For partials
+INFO: 2021/03/13 14:24:10 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:10 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:10 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/03/13 14:24:10 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1615626062,"abec54966dcc86d7fd4a5c4a727590480574512bed93735ee27210bf160658fa"]}}]
+ERROR: 2021/03/13 14:24:10 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/03/13 14:24:10 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/03/13 14:24:10 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/03/13 14:24:10 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1615626062,"de4ea3615c91e6860145022dafc45fa53147c5ff1bcc97e669c9611bfb263a8c"]}}]
+ERROR: 2021/03/13 14:24:10 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/03/13 14:24:10 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:10 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/03/13 14:24:10 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:27 main.go:44: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/03/13 14:24:27 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/03/13 14:24:29 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:29 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:29 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:29 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/03/13 14:24:29 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/03/13 14:24:29 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:29 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:29 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/03/13 14:24:29 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/03/13 14:24:29 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/03/13 14:24:29 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:29 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:29 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:29 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:29 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/03/13 14:24:29 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/03/13 14:24:29 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:29 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:29 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/03/13 14:24:29 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/03/13 14:24:29 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/03/13 14:24:29 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:29 client.go:110: Waiting For partials
+INFO: 2021/03/13 14:24:29 client.go:110: Waiting For partials
+INFO: 2021/03/13 14:24:29 client.go:110: Waiting For partials
+INFO: 2021/03/13 14:24:29 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/03/13 14:24:29 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:29 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/03/13 14:24:29 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1615626081,"bf3dab49f34b91432a7ff7cb3ff3e011e01da91e444ebeec63285e4590a3a57a"]}}]
+ERROR: 2021/03/13 14:24:29 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/03/13 14:24:29 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/03/13 14:24:29 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/03/13 14:24:29 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1615626081,"9b7c76b13eb0eff547e908b28699d39ed769813a44c2e2e8fe4bbc4c1f92113d"]}}]
+ERROR: 2021/03/13 14:24:29 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/03/13 14:24:29 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/03/13 14:24:29 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/03/13 14:24:29 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 12:53:42 main.go:42: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/06 12:53:42 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/04/06 12:53:43 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 12:53:43 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 12:53:43 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 12:53:43 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/06 12:53:43 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/06 12:53:43 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 12:53:43 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 12:53:43 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/06 12:53:43 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/06 12:53:43 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/06 12:53:43 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 12:53:43 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 12:53:43 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 12:53:43 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 12:53:43 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/06 12:53:43 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/06 12:53:43 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 12:53:43 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 12:53:43 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/06 12:53:43 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/06 12:53:43 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/06 12:53:43 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 12:53:43 client.go:110: Waiting For partials
+INFO: 2021/04/06 12:53:43 client.go:110: Waiting For partials
+INFO: 2021/04/06 12:53:43 client.go:110: Waiting For partials
+INFO: 2021/04/06 12:53:44 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 12:53:44 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 12:53:44 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/04/06 12:53:44 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1617694235,"4bc46b70fae50b3a46bf18e8e6a010d68074406d3a72746c2c85b0953a4b16fb"]}}]
+ERROR: 2021/04/06 12:53:44 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/04/06 12:53:44 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/04/06 12:53:44 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/04/06 12:53:44 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1617694235,"3a10121ee2793aeca5b3a9f52ff3a60462bb7d047f097ba582725a35d50235a4"]}}]
+ERROR: 2021/04/06 12:53:44 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/04/06 12:53:44 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 12:53:44 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/04/06 12:53:44 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:31:56 main.go:42: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/06 19:31:56 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/04/06 19:31:58 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:31:58 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:31:58 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:31:58 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/06 19:31:58 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/06 19:31:58 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:31:58 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:31:58 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/06 19:31:58 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/06 19:31:58 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/06 19:31:58 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:31:58 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:31:58 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:31:58 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:31:58 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/06 19:31:58 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/06 19:31:58 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:31:58 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:31:58 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/06 19:31:58 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/06 19:31:58 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/06 19:31:58 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:31:58 client.go:110: Waiting For partials
+INFO: 2021/04/06 19:31:58 client.go:110: Waiting For partials
+INFO: 2021/04/06 19:31:58 client.go:110: Waiting For partials
+INFO: 2021/04/06 19:31:58 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:31:58 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:31:58 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:31:58 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/04/06 19:31:58 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1617718130,"b45f968f941d4b7ab127667591f08ee03ea09434da6f0df02ebea4cf8cdbec45"]}}]
+ERROR: 2021/04/06 19:31:58 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/04/06 19:31:58 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:31:58 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/04/06 19:31:58 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/04/06 19:31:58 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1617718130,"1d0232a1e67d5ff04de68b5f5d728cd54cb920b06a28b0ef3e798642ffd23973"]}}]
+ERROR: 2021/04/06 19:31:58 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/04/06 19:31:58 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/04/06 19:32:37 main.go:42: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/06 19:32:37 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/04/06 19:32:39 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:32:39 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:32:39 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:32:39 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/06 19:32:39 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/06 19:32:39 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:32:39 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:32:39 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/06 19:32:39 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/06 19:32:39 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/06 19:32:39 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:32:39 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:32:39 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:32:39 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:32:39 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/06 19:32:39 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/06 19:32:39 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:32:39 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:32:39 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/06 19:32:39 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/06 19:32:39 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/06 19:32:39 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:32:39 client.go:110: Waiting For partials
+INFO: 2021/04/06 19:32:39 client.go:110: Waiting For partials
+INFO: 2021/04/06 19:32:39 client.go:110: Waiting For partials
+INFO: 2021/04/06 19:32:39 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/06 19:32:39 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:32:39 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/04/06 19:32:39 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1617718171,"3f8cbf348206d3d7803190fd178a8cdce5ce22ba615120dfc97601495e837586"]}}]
+ERROR: 2021/04/06 19:32:39 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/04/06 19:32:39 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/04/06 19:32:39 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/04/06 19:32:39 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1617718171,"828ba90aca0c6f5d3a47557238463c1f9fcd06d412d2425beba1ca146466b923"]}}]
+ERROR: 2021/04/06 19:32:39 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/04/06 19:32:39 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/06 19:32:39 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/04/06 19:32:39 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:43:57 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/26 18:45:19 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/26 18:45:19 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/04/26 18:45:22 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/26 18:45:22 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/26 18:45:22 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/26 18:45:22 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/26 18:45:22 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/26 18:45:22 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/26 18:45:22 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/26 18:45:22 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/26 18:45:22 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/26 18:45:22 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/26 18:45:22 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/26 18:45:22 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:45:22 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:45:22 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:45:22 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/26 18:45:22 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/26 18:45:22 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:45:22 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:45:22 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/26 18:45:22 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/26 18:45:22 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/26 18:45:22 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:45:22 client.go:110: Waiting For partials
+INFO: 2021/04/26 18:45:22 client.go:110: Waiting For partials
+INFO: 2021/04/26 18:45:22 client.go:110: Waiting For partials
+INFO: 2021/04/26 18:45:22 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/26 18:45:22 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:45:22 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/04/26 18:45:22 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619443334,"25e8fa96e01ba9f4248e3ee004ff67fc4925684b030cd216ebb29bfb70a100f6"]}}]
+ERROR: 2021/04/26 18:45:22 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/04/26 18:45:22 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:45:22 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/04/26 18:45:22 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/26 18:45:22 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/04/26 18:45:22 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619443334,"d0950121fdcd03975c136db09cb83cbd6e242a7b25402b53bfc42e51991a5ac9"]}}]
+ERROR: 2021/04/26 18:45:22 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/04/26 18:45:22 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/04/26 18:50:42 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/26 18:53:46 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/26 18:57:17 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/26 19:05:40 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/26 19:07:57 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/27 09:23:19 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/27 09:24:38 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/27 09:24:38 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/04/27 09:24:41 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:24:41 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:24:41 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:24:41 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/27 09:24:41 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/27 09:24:41 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:24:41 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:24:41 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/27 09:24:41 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/27 09:24:41 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/27 09:24:41 client.go:110: Waiting For partials
+INFO: 2021/04/27 09:24:41 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:24:41 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:24:41 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:24:41 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:24:41 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/27 09:24:41 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/27 09:24:41 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:24:41 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:24:41 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/27 09:24:41 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/27 09:24:41 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/27 09:24:41 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:24:41 client.go:110: Waiting For partials
+INFO: 2021/04/27 09:24:41 client.go:110: Waiting For partials
+INFO: 2021/04/27 09:24:42 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:24:42 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:24:42 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/04/27 09:24:42 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619496093,"e996698020bb85cbd675157d37e242433efc54c484d2a41ee063bb5a4266dff8"]}}]
+ERROR: 2021/04/27 09:24:42 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/04/27 09:24:42 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/04/27 09:24:42 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/04/27 09:24:42 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619496093,"81a57d59d325ff735d61f64bf1c5e37edf51fa6c496af9494e9dae1fd139f908"]}}]
+ERROR: 2021/04/27 09:24:42 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/04/27 09:24:42 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:24:42 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/04/27 09:24:42 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:11 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/27 09:25:11 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/04/27 09:25:13 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:13 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:13 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:13 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/27 09:25:13 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/27 09:25:13 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:13 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:13 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/27 09:25:13 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/27 09:25:13 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/27 09:25:13 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:13 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:13 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:13 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:13 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/27 09:25:13 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/27 09:25:13 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:13 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:13 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/27 09:25:13 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/27 09:25:13 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/27 09:25:13 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:13 client.go:110: Waiting For partials
+INFO: 2021/04/27 09:25:13 client.go:110: Waiting For partials
+INFO: 2021/04/27 09:25:13 client.go:110: Waiting For partials
+INFO: 2021/04/27 09:25:13 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:13 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:13 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/04/27 09:25:13 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619496125,"dc05475f03fd89e89830fa4cafe88c92643e49d5540ad36c516ee322e80072c0"]}}]
+ERROR: 2021/04/27 09:25:13 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/04/27 09:25:13 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/04/27 09:25:13 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/04/27 09:25:13 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619496125,"7e9d001b6906b52ffe1f2161d5e34c049c239b3952a3d789f64b7e61f73d4f0a"]}}]
+ERROR: 2021/04/27 09:25:13 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/04/27 09:25:13 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:13 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/04/27 09:25:13 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:48 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/27 09:25:48 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/04/27 09:25:51 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:51 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:51 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:51 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/27 09:25:51 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/27 09:25:51 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:51 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:51 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/27 09:25:51 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/27 09:25:51 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/27 09:25:51 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:51 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:51 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:51 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:51 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/27 09:25:51 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/27 09:25:51 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:51 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:51 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/27 09:25:51 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/27 09:25:51 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/27 09:25:51 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:51 client.go:110: Waiting For partials
+INFO: 2021/04/27 09:25:51 client.go:110: Waiting For partials
+INFO: 2021/04/27 09:25:51 client.go:110: Waiting For partials
+INFO: 2021/04/27 09:25:51 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 09:25:51 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:51 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/04/27 09:25:51 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619496163,"9b0bd5d36fc33e0c03b7c66b1fd47dfd4ca9774016f9aa8a7365bd02976e8a26"]}}]
+ERROR: 2021/04/27 09:25:51 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/04/27 09:25:51 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:51 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/04/27 09:25:51 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 09:25:51 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/04/27 09:25:51 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619496163,"5bd5d4213f6d683503a905743a6885084f65998556310b5f11b3f41aafc0a78f"]}}]
+ERROR: 2021/04/27 09:25:51 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/04/27 09:25:51 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/04/27 16:30:26 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/04/27 16:30:26 websocket.go:77: 
+
+
+Connecting to:  wss://www.bitmex.com/realtimemd
+INFO: 2021/04/27 16:30:29 client.go:123: New Client Initializing |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 16:30:29 client.go:209: Initiating Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 16:30:29 client.go:216: Initiated Rest object on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 16:30:29 client.go:220: Initiating connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/27 16:30:29 client.go:224: Initiated connection of client  Kd-jO3Fppp-NepHUaDtFSjcK  to sockets.
+INFO: 2021/04/27 16:30:29 client.go:229: Authenticating websocket connection of client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 16:30:29 client.go:149: New Client Initialized |  hostAccount  |  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 16:30:29 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/27 16:30:29 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/27 16:30:29 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/27 16:30:29 client.go:243: Subscribing tables  [order position margin]  on client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 16:30:29 client.go:123: New Client Initializing |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 16:30:29 client.go:209: Initiating Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 16:30:29 client.go:216: Initiated Rest object on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 16:30:29 client.go:220: Initiating connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/27 16:30:29 client.go:224: Initiated connection of client  -rkFImABn_1JsdVI6d3vehgt  to sockets.
+INFO: 2021/04/27 16:30:29 client.go:110: Waiting For partials
+INFO: 2021/04/27 16:30:29 client.go:229: Authenticating websocket connection of client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 16:30:29 client.go:149: New Client Initialized |    |  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 16:30:29 websocket.go:71: Add args to websocket msg {subscribe []} adding:  order
+INFO: 2021/04/27 16:30:29 websocket.go:71: Add args to websocket msg {subscribe [order]} adding:  position
+INFO: 2021/04/27 16:30:29 websocket.go:71: Add args to websocket msg {subscribe [order position]} adding:  margin
+INFO: 2021/04/27 16:30:29 client.go:243: Subscribing tables  [order position margin]  on client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 16:30:29 client.go:110: Waiting For partials
+INFO: 2021/04/27 16:30:29 client.go:110: Waiting For partials
+INFO: 2021/04/27 16:30:29 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+INFO: 2021/04/27 16:30:29 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 16:30:29 client.go:287: Received new message in Data Handler for client  Kd-jO3Fppp-NepHUaDtFSjcK
+ERROR: 2021/04/27 16:30:29 client.go:301: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619521641,"0f8adcbed5cd41b908b1050184c54d82c107c76edd4738d41f6b91b0ff7f4996"]}}]
+ERROR: 2021/04/27 16:30:29 client.go:302: API key  Kd-jO3Fppp-NepHUaDtFSjcK  is invalid.
+ERROR: 2021/04/27 16:30:29 client.go:305: Host Account API key is Invalid. Closing the bot in 10 seconds.
+INFO: 2021/04/27 16:30:29 client.go:287: Received new message in Data Handler for client  -rkFImABn_1JsdVI6d3vehgt
+ERROR: 2021/04/27 16:30:29 client.go:301: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619521641,"5b3109c402b51b5d17eeb94528540fe1d4b2e18a4a1bfdbc438b74b95804d640"]}}]
+ERROR: 2021/04/27 16:30:29 client.go:302: API key  -rkFImABn_1JsdVI6d3vehgt  is invalid.
+INFO: 2021/04/27 16:30:29 client.go:84: Close connection request initiated for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/04/27 16:30:29 client.go:400: Removing client  -rkFImABn_1JsdVI6d3vehgt  from all clients
+INFO: 2021/04/27 16:30:29 client.go:277: Data Handler Closed for client  -rkFImABn_1JsdVI6d3vehgt
+INFO: 2021/05/12 10:22:05 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/05/12 10:22:25 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/05/25 18:10:19 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/05/25 18:10:32 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/05/25 18:10:48 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/06/11 18:35:08 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/06/11 18:35:27 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/07/30 20:47:55 main.go:43: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+INFO: 2021/09/08 20:45:49 main.go:44: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+

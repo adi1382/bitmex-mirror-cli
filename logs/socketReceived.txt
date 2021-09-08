@@ -5176,3 +5176,590 @@ RECEIVED: 2021/02/05 15:43:39 websocket.go:58:
 
 
 
+RECEIVED: 2021/02/10 19:31:58 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/10 19:33:06 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/13 13:33:45 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/13 13:33:58 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/18 23:34:35 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/18 23:35:20 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/21 07:39:34 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/21 07:40:50 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-19T21:35:48.000Z","timestamp":"2021-02-21T02:10:51.466Z","docs":"https://testnet.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-19T21:35:48.000Z","timestamp":"2021-02-21T02:10:51.468Z","docs":"https://testnet.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"success":true,"request":{"op":"authKeyExpires","args":["IvD-a6aM_db_gKa_kP_wcEgV",1613873863,"3e716aaf647d6887c05d9467ee9eb2c5e8d6ebf2db504562c185f812bb630c69"]}}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"order","action":"partial","keys":["orderID"],"types":{"orderID":"guid","clOrdID":"string","clOrdLinkID":"symbol","account":"long","symbol":"symbol","side":"symbol","simpleOrderQty":"float","orderQty":"long","price":"float","displayQty":"long","stopPx":"float","pegOffsetValue":"float","pegPriceType":"symbol","currency":"symbol","settlCurrency":"symbol","ordType":"symbol","timeInForce":"symbol","execInst":"symbol","contingencyType":"symbol","exDestination":"symbol","ordStatus":"symbol","triggered":"symbol","workingIndicator":"boolean","ordRejReason":"symbol","simpleLeavesQty":"float","leavesQty":"long","simpleCumQty":"float","cumQty":"long","avgPx":"float","multiLegReportingType":"symbol","text":"string","transactTime":"timestamp","timestamp":"timestamp"},"foreignKeys":{"symbol":"instrument","side":"side","ordStatus":"ordStatus"},"attributes":{"orderID":"grouped","account":"grouped","ordStatus":"grouped","workingIndicator":"grouped"},"filter":{"account":187313},"data":[]}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"position","action":"partial","keys":["account","symbol"],"types":{"account":"long","symbol":"symbol","currency":"symbol","underlying":"symbol","quoteCurrency":"symbol","commission":"float","initMarginReq":"float","maintMarginReq":"float","riskLimit":"long","leverage":"float","crossMargin":"boolean","deleveragePercentile":"float","rebalancedPnl":"long","prevRealisedPnl":"long","prevUnrealisedPnl":"long","prevClosePrice":"float","openingTimestamp":"timestamp","openingQty":"long","openingCost":"long","openingComm":"long","openOrderBuyQty":"long","openOrderBuyCost":"long","openOrderBuyPremium":"long","openOrderSellQty":"long","openOrderSellCost":"long","openOrderSellPremium":"long","execBuyQty":"long","execBuyCost":"long","execSellQty":"long","execSellCost":"long","execQty":"long","execCost":"long","execComm":"long","currentTimestamp":"timestamp","currentQty":"long","currentCost":"long","currentComm":"long","realisedCost":"long","unrealisedCost":"long","grossOpenCost":"long","grossOpenPremium":"long","grossExecCost":"long","isOpen":"boolean","markPrice":"float","markValue":"long","riskValue":"long","homeNotional":"float","foreignNotional":"float","posState":"symbol","posCost":"long","posCost2":"long","posCross":"long","posInit":"long","posComm":"long","posLoss":"long","posMargin":"long","posMaint":"long","posAllowance":"long","taxableMargin":"long","initMargin":"long","maintMargin":"long","sessionMargin":"long","targetExcessMargin":"long","varMargin":"long","realisedGrossPnl":"long","realisedTax":"long","realisedPnl":"long","unrealisedGrossPnl":"long","longBankrupt":"long","shortBankrupt":"long","taxBase":"long","indicativeTaxRate":"float","indicativeTax":"long","unrealisedTax":"long","unrealisedPnl":"long","unrealisedPnlPcnt":"float","unrealisedRoePcnt":"float","simpleQty":"float","simpleCost":"float","simpleValue":"float","simplePnl":"float","simplePnlPcnt":"float","avgCostPrice":"float","avgEntryPrice":"float","breakEvenPrice":"float","marginCallPrice":"float","liquidationPrice":"float","bankruptPrice":"float","timestamp":"timestamp","lastPrice":"float","lastValue":"long"},"foreignKeys":{"symbol":"instrument"},"attributes":{"account":"sorted","symbol":"grouped","underlying":"grouped"},"filter":{"account":187313},"data":[]}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"success":true,"subscribe":"order","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"success":true,"subscribe":"position","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"success":true,"subscribe":"margin","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"margin","action":"partial","keys":["account"],"types":{"account":"long","currency":"symbol","riskLimit":"long","prevState":"symbol","state":"symbol","action":"symbol","amount":"long","pendingCredit":"long","pendingDebit":"long","confirmedDebit":"long","prevRealisedPnl":"long","prevUnrealisedPnl":"long","grossComm":"long","grossOpenCost":"long","grossOpenPremium":"long","grossExecCost":"long","grossMarkValue":"long","riskValue":"long","taxableMargin":"long","initMargin":"long","maintMargin":"long","sessionMargin":"long","targetExcessMargin":"long","varMargin":"long","realisedPnl":"long","unrealisedPnl":"long","indicativeTax":"long","unrealisedProfit":"long","syntheticMargin":"long","walletBalance":"long","marginBalance":"long","marginBalancePcnt":"float","marginLeverage":"float","marginUsedPcnt":"float","excessMargin":"long","excessMarginPcnt":"float","availableMargin":"long","withdrawableMargin":"long","timestamp":"timestamp","grossLastValue":"long","commission":"float"},"foreignKeys":{},"attributes":{"account":"sorted"},"filter":{"account":187313},"data":[{"account":187313,"currency":"XBt","riskLimit":1000000000000,"prevState":"","state":"","action":"","amount":127821817,"pendingCredit":0,"pendingDebit":0,"confirmedDebit":0,"prevRealisedPnl":0,"prevUnrealisedPnl":0,"grossComm":0,"grossOpenCost":0,"grossOpenPremium":0,"grossExecCost":0,"grossMarkValue":0,"riskValue":0,"taxableMargin":0,"initMargin":0,"maintMargin":0,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedPnl":0,"unrealisedPnl":0,"indicativeTax":0,"unrealisedProfit":0,"syntheticMargin":null,"walletBalance":127821817,"marginBalance":127821817,"marginBalancePcnt":1,"marginLeverage":0,"marginUsedPcnt":0,"excessMargin":127821817,"excessMarginPcnt":1,"availableMargin":127821817,"withdrawableMargin":127821817,"timestamp":"2021-02-14T13:51:27.030Z","grossLastValue":0,"commission":null}]}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"success":true,"request":{"op":"authKeyExpires","args":["Gw169Ql6i9uD_f9pShjbRg5B",1613873863,"22464ddc0fc98e0a8f97cc1da583584d729de21ab86e988c4b32f48d981b11d2"]}}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"order","action":"partial","keys":["orderID"],"types":{"orderID":"guid","clOrdID":"string","clOrdLinkID":"symbol","account":"long","symbol":"symbol","side":"symbol","simpleOrderQty":"float","orderQty":"long","price":"float","displayQty":"long","stopPx":"float","pegOffsetValue":"float","pegPriceType":"symbol","currency":"symbol","settlCurrency":"symbol","ordType":"symbol","timeInForce":"symbol","execInst":"symbol","contingencyType":"symbol","exDestination":"symbol","ordStatus":"symbol","triggered":"symbol","workingIndicator":"boolean","ordRejReason":"symbol","simpleLeavesQty":"float","leavesQty":"long","simpleCumQty":"float","cumQty":"long","avgPx":"float","multiLegReportingType":"symbol","text":"string","transactTime":"timestamp","timestamp":"timestamp"},"foreignKeys":{"symbol":"instrument","side":"side","ordStatus":"ordStatus"},"attributes":{"orderID":"grouped","account":"grouped","ordStatus":"grouped","workingIndicator":"grouped"},"filter":{"account":257826},"data":[]}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"success":true,"subscribe":"order","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"success":true,"subscribe":"position","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"success":true,"subscribe":"margin","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"position","action":"partial","keys":["account","symbol"],"types":{"account":"long","symbol":"symbol","currency":"symbol","underlying":"symbol","quoteCurrency":"symbol","commission":"float","initMarginReq":"float","maintMarginReq":"float","riskLimit":"long","leverage":"float","crossMargin":"boolean","deleveragePercentile":"float","rebalancedPnl":"long","prevRealisedPnl":"long","prevUnrealisedPnl":"long","prevClosePrice":"float","openingTimestamp":"timestamp","openingQty":"long","openingCost":"long","openingComm":"long","openOrderBuyQty":"long","openOrderBuyCost":"long","openOrderBuyPremium":"long","openOrderSellQty":"long","openOrderSellCost":"long","openOrderSellPremium":"long","execBuyQty":"long","execBuyCost":"long","execSellQty":"long","execSellCost":"long","execQty":"long","execCost":"long","execComm":"long","currentTimestamp":"timestamp","currentQty":"long","currentCost":"long","currentComm":"long","realisedCost":"long","unrealisedCost":"long","grossOpenCost":"long","grossOpenPremium":"long","grossExecCost":"long","isOpen":"boolean","markPrice":"float","markValue":"long","riskValue":"long","homeNotional":"float","foreignNotional":"float","posState":"symbol","posCost":"long","posCost2":"long","posCross":"long","posInit":"long","posComm":"long","posLoss":"long","posMargin":"long","posMaint":"long","posAllowance":"long","taxableMargin":"long","initMargin":"long","maintMargin":"long","sessionMargin":"long","targetExcessMargin":"long","varMargin":"long","realisedGrossPnl":"long","realisedTax":"long","realisedPnl":"long","unrealisedGrossPnl":"long","longBankrupt":"long","shortBankrupt":"long","taxBase":"long","indicativeTaxRate":"float","indicativeTax":"long","unrealisedTax":"long","unrealisedPnl":"long","unrealisedPnlPcnt":"float","unrealisedRoePcnt":"float","simpleQty":"float","simpleCost":"float","simpleValue":"float","simplePnl":"float","simplePnlPcnt":"float","avgCostPrice":"float","avgEntryPrice":"float","breakEvenPrice":"float","marginCallPrice":"float","liquidationPrice":"float","bankruptPrice":"float","timestamp":"timestamp","lastPrice":"float","lastValue":"long"},"foreignKeys":{"symbol":"instrument"},"attributes":{"account":"sorted","symbol":"grouped","underlying":"grouped"},"filter":{"account":257826},"data":[]}]
+RECEIVED: 2021/02/21 07:40:51 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"margin","action":"partial","keys":["account"],"types":{"account":"long","currency":"symbol","riskLimit":"long","prevState":"symbol","state":"symbol","action":"symbol","amount":"long","pendingCredit":"long","pendingDebit":"long","confirmedDebit":"long","prevRealisedPnl":"long","prevUnrealisedPnl":"long","grossComm":"long","grossOpenCost":"long","grossOpenPremium":"long","grossExecCost":"long","grossMarkValue":"long","riskValue":"long","taxableMargin":"long","initMargin":"long","maintMargin":"long","sessionMargin":"long","targetExcessMargin":"long","varMargin":"long","realisedPnl":"long","unrealisedPnl":"long","indicativeTax":"long","unrealisedProfit":"long","syntheticMargin":"long","walletBalance":"long","marginBalance":"long","marginBalancePcnt":"float","marginLeverage":"float","marginUsedPcnt":"float","excessMargin":"long","excessMarginPcnt":"float","availableMargin":"long","withdrawableMargin":"long","timestamp":"timestamp","grossLastValue":"long","commission":"float"},"foreignKeys":{},"attributes":{"account":"sorted"},"filter":{"account":257826},"data":[{"account":257826,"currency":"XBt","riskLimit":1000000000000,"prevState":"","state":"","action":"","amount":96326927,"pendingCredit":0,"pendingDebit":0,"confirmedDebit":0,"prevRealisedPnl":0,"prevUnrealisedPnl":0,"grossComm":0,"grossOpenCost":0,"grossOpenPremium":0,"grossExecCost":0,"grossMarkValue":0,"riskValue":0,"taxableMargin":0,"initMargin":0,"maintMargin":0,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedPnl":0,"unrealisedPnl":0,"indicativeTax":0,"unrealisedProfit":0,"syntheticMargin":null,"walletBalance":96326927,"marginBalance":96326927,"marginBalancePcnt":1,"marginLeverage":0,"marginUsedPcnt":0,"excessMargin":96326927,"excessMarginPcnt":1,"availableMargin":96326927,"withdrawableMargin":96326927,"timestamp":"2021-02-14T13:51:27.030Z","grossLastValue":0,"commission":null}]}]
+RECEIVED: 2021/02/21 07:41:37 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"order","action":"insert","data":[{"orderID":"fadab0b4-b82e-4743-8fa9-7d8e11ba6f9b","clOrdID":"","clOrdLinkID":"","account":187313,"symbol":"XBTUSD","side":"Buy","simpleOrderQty":null,"orderQty":500,"price":50000,"displayQty":null,"stopPx":null,"pegOffsetValue":null,"pegPriceType":"","currency":"USD","settlCurrency":"XBt","ordType":"Limit","timeInForce":"GoodTillCancel","execInst":"","contingencyType":"","exDestination":"XBME","ordStatus":"New","triggered":"","workingIndicator":true,"ordRejReason":"","simpleLeavesQty":null,"leavesQty":500,"simpleCumQty":null,"cumQty":0,"avgPx":null,"multiLegReportingType":"SingleSecurity","text":"Submission from testnet.bitmex.com","transactTime":"2021-02-21T02:11:37.485Z","timestamp":"2021-02-21T02:11:37.485Z"}]}]
+RECEIVED: 2021/02/21 07:41:37 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"position","action":"insert","data":[{"account":187313,"symbol":"XBTUSD","currency":"XBt","underlying":"XBT","quoteCurrency":"USD","commission":0.00075,"initMarginReq":0.01,"maintMarginReq":0.0035,"riskLimit":20000000000,"leverage":100,"crossMargin":true,"deleveragePercentile":null,"rebalancedPnl":0,"prevRealisedPnl":0,"prevUnrealisedPnl":0,"prevClosePrice":56335.74,"openingTimestamp":"2021-02-21T02:00:00.000Z","openingQty":0,"openingCost":0,"openingComm":0,"openOrderBuyQty":500,"openOrderBuyCost":-1000000,"openOrderBuyPremium":0,"openOrderSellQty":0,"openOrderSellCost":0,"openOrderSellPremium":0,"execBuyQty":0,"execBuyCost":0,"execSellQty":0,"execSellCost":0,"execQty":0,"execCost":0,"execComm":0,"currentTimestamp":"2021-02-21T02:11:37.485Z","currentQty":0,"currentCost":0,"currentComm":0,"realisedCost":0,"unrealisedCost":0,"grossOpenCost":1000000,"grossOpenPremium":0,"grossExecCost":0,"isOpen":false,"markPrice":56436.91,"markValue":0,"riskValue":1000000,"homeNotional":0,"foreignNotional":0,"posState":"","posCost":0,"posCost2":0,"posCross":0,"posInit":0,"posComm":0,"posLoss":0,"posMargin":0,"posMaint":0,"posAllowance":0,"taxableMargin":0,"initMargin":11508,"maintMargin":0,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedGrossPnl":0,"realisedTax":0,"realisedPnl":0,"unrealisedGrossPnl":0,"longBankrupt":0,"shortBankrupt":0,"taxBase":0,"indicativeTaxRate":null,"indicativeTax":0,"unrealisedTax":0,"unrealisedPnl":0,"unrealisedPnlPcnt":0,"unrealisedRoePcnt":0,"simpleQty":null,"simpleCost":null,"simpleValue":null,"simplePnl":null,"simplePnlPcnt":null,"avgCostPrice":null,"avgEntryPrice":null,"breakEvenPrice":null,"marginCallPrice":null,"liquidationPrice":null,"bankruptPrice":null,"timestamp":"2021-02-21T02:11:37.485Z","lastPrice":56436.91,"lastValue":0}]}]
+RECEIVED: 2021/02/21 07:41:37 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"margin","action":"update","data":[{"account":187313,"grossOpenCost":1000000,"riskValue":1000000,"initMargin":11508,"marginUsedPcnt":0.0001,"excessMargin":127810309,"availableMargin":127810309,"withdrawableMargin":127810309,"timestamp":"2021-02-21T02:11:37.485Z","currency":"XBt"}]}]
+RECEIVED: 2021/02/21 07:41:37 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"order","action":"insert","data":[{"orderID":"7bfeba47-f80b-4754-90e6-08f43bd96348","clOrdID":"32b8e9a5-b82e-4743-8fa9-7d8e11ba6f9b","clOrdLinkID":"","account":257826,"symbol":"XBTUSD","side":"Buy","simpleOrderQty":null,"orderQty":500,"price":50000,"displayQty":null,"stopPx":null,"pegOffsetValue":null,"pegPriceType":"","currency":"USD","settlCurrency":"XBt","ordType":"Limit","timeInForce":"GoodTillCancel","execInst":"","contingencyType":"","exDestination":"XBME","ordStatus":"New","triggered":"","workingIndicator":true,"ordRejReason":"","simpleLeavesQty":null,"leavesQty":500,"simpleCumQty":null,"cumQty":0,"avgPx":null,"multiLegReportingType":"SingleSecurity","text":"Submission from testnet.bitmex.com","transactTime":"2021-02-21T02:11:37.795Z","timestamp":"2021-02-21T02:11:37.795Z"}]}]
+RECEIVED: 2021/02/21 07:41:37 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"margin","action":"update","data":[{"account":257826,"grossOpenCost":1000000,"riskValue":1000000,"initMargin":11508,"marginUsedPcnt":0.0001,"excessMargin":96315419,"availableMargin":96315419,"withdrawableMargin":96315419,"timestamp":"2021-02-21T02:11:37.795Z","currency":"XBt"}]}]
+RECEIVED: 2021/02/21 07:41:37 websocket.go:138: Length of channel: 1 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"position","action":"insert","data":[{"account":257826,"symbol":"XBTUSD","currency":"XBt","underlying":"XBT","quoteCurrency":"USD","commission":0.00075,"initMarginReq":0.01,"maintMarginReq":0.0035,"riskLimit":20000000000,"leverage":100,"crossMargin":true,"deleveragePercentile":null,"rebalancedPnl":0,"prevRealisedPnl":0,"prevUnrealisedPnl":0,"prevClosePrice":56335.74,"openingTimestamp":"2021-02-21T02:00:00.000Z","openingQty":0,"openingCost":0,"openingComm":0,"openOrderBuyQty":500,"openOrderBuyCost":-1000000,"openOrderBuyPremium":0,"openOrderSellQty":0,"openOrderSellCost":0,"openOrderSellPremium":0,"execBuyQty":0,"execBuyCost":0,"execSellQty":0,"execSellCost":0,"execQty":0,"execCost":0,"execComm":0,"currentTimestamp":"2021-02-21T02:11:37.795Z","currentQty":0,"currentCost":0,"currentComm":0,"realisedCost":0,"unrealisedCost":0,"grossOpenCost":1000000,"grossOpenPremium":0,"grossExecCost":0,"isOpen":false,"markPrice":56436.91,"markValue":0,"riskValue":1000000,"homeNotional":0,"foreignNotional":0,"posState":"","posCost":0,"posCost2":0,"posCross":0,"posInit":0,"posComm":0,"posLoss":0,"posMargin":0,"posMaint":0,"posAllowance":0,"taxableMargin":0,"initMargin":11508,"maintMargin":0,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedGrossPnl":0,"realisedTax":0,"realisedPnl":0,"unrealisedGrossPnl":0,"longBankrupt":0,"shortBankrupt":0,"taxBase":0,"indicativeTaxRate":null,"indicativeTax":0,"unrealisedTax":0,"unrealisedPnl":0,"unrealisedPnlPcnt":0,"unrealisedRoePcnt":0,"simpleQty":null,"simpleCost":null,"simpleValue":null,"simplePnl":null,"simplePnlPcnt":null,"avgCostPrice":null,"avgEntryPrice":null,"breakEvenPrice":null,"marginCallPrice":null,"liquidationPrice":null,"bankruptPrice":null,"timestamp":"2021-02-21T02:11:37.795Z","lastPrice":56436.91,"lastValue":0}]}]
+RECEIVED: 2021/02/21 07:41:40 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"position","action":"update","data":[{"account":187313,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:11:40.394Z","markPrice":56435.63,"timestamp":"2021-02-21T02:11:40.394Z","lastPrice":56435.63,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:40 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"position","action":"update","data":[{"account":257826,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:11:40.394Z","markPrice":56435.63,"timestamp":"2021-02-21T02:11:40.394Z","lastPrice":56435.63,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:44 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"order","action":"update","data":[{"orderID":"fadab0b4-b82e-4743-8fa9-7d8e11ba6f9b","orderQty":400,"leavesQty":400,"text":"Amended orderQty: Amend from testnet.bitmex.com\nSubmission from testnet.bitmex.com","timestamp":"2021-02-21T02:11:44.398Z","clOrdID":"","account":187313,"symbol":"XBTUSD"}]}]
+RECEIVED: 2021/02/21 07:41:44 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"position","action":"update","data":[{"account":187313,"symbol":"XBTUSD","openOrderBuyQty":400,"openOrderBuyCost":-800000,"grossOpenCost":800000,"riskValue":800000,"initMargin":9206,"timestamp":"2021-02-21T02:11:44.398Z","currency":"XBt","currentQty":0,"markPrice":56435.63,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:44 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"margin","action":"update","data":[{"account":187313,"grossOpenCost":800000,"riskValue":800000,"initMargin":9206,"excessMargin":127812611,"availableMargin":127812611,"withdrawableMargin":127812611,"timestamp":"2021-02-21T02:11:44.399Z","currency":"XBt"}]}]
+RECEIVED: 2021/02/21 07:41:44 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"order","action":"update","data":[{"orderID":"7bfeba47-f80b-4754-90e6-08f43bd96348","orderQty":400,"leavesQty":400,"text":"Amended orderQty: Amended via API.\nSubmission from testnet.bitmex.com","timestamp":"2021-02-21T02:11:44.685Z","clOrdID":"32b8e9a5-b82e-4743-8fa9-7d8e11ba6f9b","account":257826,"symbol":"XBTUSD"}]}]
+RECEIVED: 2021/02/21 07:41:44 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"position","action":"update","data":[{"account":257826,"symbol":"XBTUSD","openOrderBuyQty":400,"openOrderBuyCost":-800000,"grossOpenCost":800000,"riskValue":800000,"initMargin":9206,"timestamp":"2021-02-21T02:11:44.685Z","currency":"XBt","currentQty":0,"markPrice":56435.63,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:44 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"margin","action":"update","data":[{"account":257826,"grossOpenCost":800000,"riskValue":800000,"initMargin":9206,"excessMargin":96317721,"availableMargin":96317721,"withdrawableMargin":96317721,"timestamp":"2021-02-21T02:11:44.687Z","currency":"XBt"}]}]
+RECEIVED: 2021/02/21 07:41:45 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"position","action":"update","data":[{"account":187313,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:11:45.394Z","markPrice":56439.3,"timestamp":"2021-02-21T02:11:45.394Z","lastPrice":56439.3,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:45 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"position","action":"update","data":[{"account":257826,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:11:45.394Z","markPrice":56439.3,"timestamp":"2021-02-21T02:11:45.394Z","lastPrice":56439.3,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:50 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"order","action":"update","data":[{"orderID":"fadab0b4-b82e-4743-8fa9-7d8e11ba6f9b","price":45000,"text":"Amended price: Amend from testnet.bitmex.com\nSubmission from testnet.bitmex.com","transactTime":"2021-02-21T02:11:50.529Z","timestamp":"2021-02-21T02:11:50.529Z","clOrdID":"","account":187313,"symbol":"XBTUSD"}]}]
+RECEIVED: 2021/02/21 07:41:50 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"margin","action":"update","data":[{"account":187313,"grossOpenCost":888800,"riskValue":888800,"initMargin":10228,"excessMargin":127811589,"availableMargin":127811589,"withdrawableMargin":127811589,"timestamp":"2021-02-21T02:11:50.531Z","currency":"XBt"}]}]
+RECEIVED: 2021/02/21 07:41:50 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"position","action":"update","data":[{"account":187313,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:11:50.394Z","markPrice":56440.67,"timestamp":"2021-02-21T02:11:50.394Z","lastPrice":56440.67,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:50 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"position","action":"update","data":[{"account":257826,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:11:50.394Z","markPrice":56440.67,"timestamp":"2021-02-21T02:11:50.394Z","lastPrice":56440.67,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:50 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"position","action":"update","data":[{"account":187313,"symbol":"XBTUSD","openOrderBuyCost":-888800,"grossOpenCost":888800,"riskValue":888800,"initMargin":10228,"timestamp":"2021-02-21T02:11:50.529Z","currency":"XBt","currentQty":0,"markPrice":56440.67,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:50 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"order","action":"update","data":[{"orderID":"7bfeba47-f80b-4754-90e6-08f43bd96348","price":45000,"text":"Amended price: Amended via API.\nSubmission from testnet.bitmex.com","transactTime":"2021-02-21T02:11:50.948Z","timestamp":"2021-02-21T02:11:50.948Z","clOrdID":"32b8e9a5-b82e-4743-8fa9-7d8e11ba6f9b","account":257826,"symbol":"XBTUSD"}]}]
+RECEIVED: 2021/02/21 07:41:50 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"position","action":"update","data":[{"account":257826,"symbol":"XBTUSD","openOrderBuyCost":-888800,"grossOpenCost":888800,"riskValue":888800,"initMargin":10228,"timestamp":"2021-02-21T02:11:50.948Z","currency":"XBt","currentQty":0,"markPrice":56440.67,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:50 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"margin","action":"update","data":[{"account":257826,"grossOpenCost":888800,"riskValue":888800,"initMargin":10228,"excessMargin":96316699,"availableMargin":96316699,"withdrawableMargin":96316699,"timestamp":"2021-02-21T02:11:50.950Z","currency":"XBt"}]}]
+RECEIVED: 2021/02/21 07:41:54 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"order","action":"update","data":[{"orderID":"fadab0b4-b82e-4743-8fa9-7d8e11ba6f9b","ordStatus":"Canceled","workingIndicator":false,"leavesQty":0,"text":"Canceled: Cancel from testnet.bitmex.com\nSubmission from testnet.bitmex.com","timestamp":"2021-02-21T02:11:54.853Z","clOrdID":"","account":187313,"symbol":"XBTUSD"}]}]
+RECEIVED: 2021/02/21 07:41:54 websocket.go:138: Length of channel: 1 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"position","action":"update","data":[{"account":187313,"symbol":"XBTUSD","openOrderBuyQty":0,"openOrderBuyCost":0,"grossOpenCost":0,"riskValue":0,"initMargin":0,"timestamp":"2021-02-21T02:11:54.853Z","currency":"XBt","currentQty":0,"markPrice":56440.67,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:54 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"margin","action":"update","data":[{"account":187313,"grossOpenCost":0,"riskValue":0,"initMargin":0,"marginUsedPcnt":0,"excessMargin":127821817,"availableMargin":127821817,"withdrawableMargin":127821817,"timestamp":"2021-02-21T02:11:54.854Z","currency":"XBt"}]}]
+RECEIVED: 2021/02/21 07:41:55 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"order","action":"update","data":[{"orderID":"7bfeba47-f80b-4754-90e6-08f43bd96348","ordStatus":"Canceled","workingIndicator":false,"leavesQty":0,"text":"Canceled: Canceled via API.\nSubmission from testnet.bitmex.com","timestamp":"2021-02-21T02:11:55.138Z","clOrdID":"32b8e9a5-b82e-4743-8fa9-7d8e11ba6f9b","account":257826,"symbol":"XBTUSD"}]}]
+RECEIVED: 2021/02/21 07:41:55 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"position","action":"update","data":[{"account":257826,"symbol":"XBTUSD","openOrderBuyQty":0,"openOrderBuyCost":0,"grossOpenCost":0,"riskValue":0,"initMargin":0,"timestamp":"2021-02-21T02:11:55.138Z","currency":"XBt","currentQty":0,"markPrice":56440.67,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:55 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"margin","action":"update","data":[{"account":257826,"grossOpenCost":0,"riskValue":0,"initMargin":0,"marginUsedPcnt":0,"excessMargin":96326927,"availableMargin":96326927,"withdrawableMargin":96326927,"timestamp":"2021-02-21T02:11:55.139Z","currency":"XBt"}]}]
+RECEIVED: 2021/02/21 07:41:55 websocket.go:138: Length of channel: 0 Message: [0,"IvD-a6aM_db_gKa_kP_wcEgV","hostAccount",{"table":"position","action":"update","data":[{"account":187313,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:11:55.394Z","markPrice":null,"timestamp":"2021-02-21T02:11:55.394Z","lastPrice":null,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 07:41:55 websocket.go:138: Length of channel: 0 Message: [0,"Gw169Ql6i9uD_f9pShjbRg5B","",{"table":"position","action":"update","data":[{"account":257826,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:11:55.394Z","markPrice":null,"timestamp":"2021-02-21T02:11:55.394Z","lastPrice":null,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:21 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-21T02:34:23.181Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-21T02:34:23.182Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"success":true,"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1613875274,"54b579acc08ac4f977ae636ec21d8b6ced476718c639a05ca5fe500308cd3094"]}}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"success":true,"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1613875274,"b586223012df742ffcbb6a9d9363ed79038f5a4925c010d7161c277cbeab95b0"]}}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"order","action":"partial","keys":["orderID"],"types":{"orderID":"guid","clOrdID":"string","clOrdLinkID":"symbol","account":"long","symbol":"symbol","side":"symbol","simpleOrderQty":"float","orderQty":"long","price":"float","displayQty":"long","stopPx":"float","pegOffsetValue":"float","pegPriceType":"symbol","currency":"symbol","settlCurrency":"symbol","ordType":"symbol","timeInForce":"symbol","execInst":"symbol","contingencyType":"symbol","exDestination":"symbol","ordStatus":"symbol","triggered":"symbol","workingIndicator":"boolean","ordRejReason":"symbol","simpleLeavesQty":"float","leavesQty":"long","simpleCumQty":"float","cumQty":"long","avgPx":"float","multiLegReportingType":"symbol","text":"string","transactTime":"timestamp","timestamp":"timestamp"},"foreignKeys":{"symbol":"instrument","side":"side","ordStatus":"ordStatus"},"attributes":{"orderID":"grouped","account":"grouped","ordStatus":"grouped","workingIndicator":"grouped"},"filter":{"account":311990},"data":[]}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"order","action":"partial","keys":["orderID"],"types":{"orderID":"guid","clOrdID":"string","clOrdLinkID":"symbol","account":"long","symbol":"symbol","side":"symbol","simpleOrderQty":"float","orderQty":"long","price":"float","displayQty":"long","stopPx":"float","pegOffsetValue":"float","pegPriceType":"symbol","currency":"symbol","settlCurrency":"symbol","ordType":"symbol","timeInForce":"symbol","execInst":"symbol","contingencyType":"symbol","exDestination":"symbol","ordStatus":"symbol","triggered":"symbol","workingIndicator":"boolean","ordRejReason":"symbol","simpleLeavesQty":"float","leavesQty":"long","simpleCumQty":"float","cumQty":"long","avgPx":"float","multiLegReportingType":"symbol","text":"string","transactTime":"timestamp","timestamp":"timestamp"},"foreignKeys":{"symbol":"instrument","side":"side","ordStatus":"ordStatus"},"attributes":{"orderID":"grouped","account":"grouped","ordStatus":"grouped","workingIndicator":"grouped"},"filter":{"account":1094118},"data":[{"orderID":"6594395b-52ae-4b4c-8f72-921ef26b9380","clOrdID":"","clOrdLinkID":"","account":1094118,"symbol":"XBTUSD","side":"Buy","simpleOrderQty":null,"orderQty":100,"price":30000,"displayQty":null,"stopPx":null,"pegOffsetValue":null,"pegPriceType":"","currency":"USD","settlCurrency":"XBt","ordType":"Limit","timeInForce":"GoodTillCancel","execInst":"","contingencyType":"","exDestination":"XBME","ordStatus":"New","triggered":"","workingIndicator":true,"ordRejReason":"","simpleLeavesQty":null,"leavesQty":100,"simpleCumQty":null,"cumQty":0,"avgPx":null,"multiLegReportingType":"SingleSecurity","text":"Submission from www.bitmex.com","transactTime":"2021-02-20T15:38:44.965Z","timestamp":"2021-02-20T15:38:44.965Z"}]}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 1 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"success":true,"subscribe":"order","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 2 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"success":true,"subscribe":"position","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"success":true,"subscribe":"margin","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"success":true,"subscribe":"order","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"success":true,"subscribe":"position","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"success":true,"subscribe":"margin","request":{"op":"subscribe","args":["order","position","margin"]}}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"margin","action":"partial","keys":["account"],"types":{"account":"long","currency":"symbol","riskLimit":"long","prevState":"symbol","state":"symbol","action":"symbol","amount":"long","pendingCredit":"long","pendingDebit":"long","confirmedDebit":"long","prevRealisedPnl":"long","prevUnrealisedPnl":"long","grossComm":"long","grossOpenCost":"long","grossOpenPremium":"long","grossExecCost":"long","grossMarkValue":"long","riskValue":"long","taxableMargin":"long","initMargin":"long","maintMargin":"long","sessionMargin":"long","targetExcessMargin":"long","varMargin":"long","realisedPnl":"long","unrealisedPnl":"long","indicativeTax":"long","unrealisedProfit":"long","syntheticMargin":"long","walletBalance":"long","marginBalance":"long","marginBalancePcnt":"float","marginLeverage":"float","marginUsedPcnt":"float","excessMargin":"long","excessMarginPcnt":"float","availableMargin":"long","withdrawableMargin":"long","timestamp":"timestamp","grossLastValue":"long","commission":"float"},"foreignKeys":{},"attributes":{"account":"sorted"},"filter":{"account":311990},"data":[{"account":311990,"currency":"XBt","riskLimit":1000000000000,"prevState":"","state":"","action":"","amount":13272135,"pendingCredit":0,"pendingDebit":0,"confirmedDebit":0,"prevRealisedPnl":0,"prevUnrealisedPnl":0,"grossComm":0,"grossOpenCost":0,"grossOpenPremium":0,"grossExecCost":0,"grossMarkValue":0,"riskValue":0,"taxableMargin":0,"initMargin":0,"maintMargin":0,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedPnl":0,"unrealisedPnl":0,"indicativeTax":0,"unrealisedProfit":0,"syntheticMargin":null,"walletBalance":13272135,"marginBalance":13272135,"marginBalancePcnt":1,"marginLeverage":0,"marginUsedPcnt":0,"excessMargin":13272135,"excessMarginPcnt":1,"availableMargin":13272135,"withdrawableMargin":13272135,"timestamp":"2021-02-18T22:54:52.452Z","grossLastValue":0,"commission":null}]}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"margin","action":"partial","keys":["account"],"types":{"account":"long","currency":"symbol","riskLimit":"long","prevState":"symbol","state":"symbol","action":"symbol","amount":"long","pendingCredit":"long","pendingDebit":"long","confirmedDebit":"long","prevRealisedPnl":"long","prevUnrealisedPnl":"long","grossComm":"long","grossOpenCost":"long","grossOpenPremium":"long","grossExecCost":"long","grossMarkValue":"long","riskValue":"long","taxableMargin":"long","initMargin":"long","maintMargin":"long","sessionMargin":"long","targetExcessMargin":"long","varMargin":"long","realisedPnl":"long","unrealisedPnl":"long","indicativeTax":"long","unrealisedProfit":"long","syntheticMargin":"long","walletBalance":"long","marginBalance":"long","marginBalancePcnt":"float","marginLeverage":"float","marginUsedPcnt":"float","excessMargin":"long","excessMarginPcnt":"float","availableMargin":"long","withdrawableMargin":"long","timestamp":"timestamp","grossLastValue":"long","commission":"float"},"foreignKeys":{},"attributes":{"account":"sorted"},"filter":{"account":1094118},"data":[{"account":1094118,"currency":"XBt","riskLimit":1000000000000,"prevState":"","state":"","action":"","amount":10573956,"pendingCredit":0,"pendingDebit":0,"confirmedDebit":0,"prevRealisedPnl":0,"prevUnrealisedPnl":0,"grossComm":0,"grossOpenCost":333300,"grossOpenPremium":0,"grossExecCost":0,"grossMarkValue":0,"riskValue":333300,"taxableMargin":0,"initMargin":334050,"maintMargin":0,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedPnl":0,"unrealisedPnl":0,"indicativeTax":0,"unrealisedProfit":0,"syntheticMargin":null,"walletBalance":10573956,"marginBalance":10573956,"marginBalancePcnt":1,"marginLeverage":0,"marginUsedPcnt":0.0316,"excessMargin":10239906,"excessMarginPcnt":1,"availableMargin":10239906,"withdrawableMargin":10239906,"timestamp":"2021-02-20T16:10:25.938Z","grossLastValue":0,"commission":null}]}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"partial","keys":["account","symbol"],"types":{"account":"long","symbol":"symbol","currency":"symbol","underlying":"symbol","quoteCurrency":"symbol","commission":"float","initMarginReq":"float","maintMarginReq":"float","riskLimit":"long","leverage":"float","crossMargin":"boolean","deleveragePercentile":"float","rebalancedPnl":"long","prevRealisedPnl":"long","prevUnrealisedPnl":"long","prevClosePrice":"float","openingTimestamp":"timestamp","openingQty":"long","openingCost":"long","openingComm":"long","openOrderBuyQty":"long","openOrderBuyCost":"long","openOrderBuyPremium":"long","openOrderSellQty":"long","openOrderSellCost":"long","openOrderSellPremium":"long","execBuyQty":"long","execBuyCost":"long","execSellQty":"long","execSellCost":"long","execQty":"long","execCost":"long","execComm":"long","currentTimestamp":"timestamp","currentQty":"long","currentCost":"long","currentComm":"long","realisedCost":"long","unrealisedCost":"long","grossOpenCost":"long","grossOpenPremium":"long","grossExecCost":"long","isOpen":"boolean","markPrice":"float","markValue":"long","riskValue":"long","homeNotional":"float","foreignNotional":"float","posState":"symbol","posCost":"long","posCost2":"long","posCross":"long","posInit":"long","posComm":"long","posLoss":"long","posMargin":"long","posMaint":"long","posAllowance":"long","taxableMargin":"long","initMargin":"long","maintMargin":"long","sessionMargin":"long","targetExcessMargin":"long","varMargin":"long","realisedGrossPnl":"long","realisedTax":"long","realisedPnl":"long","unrealisedGrossPnl":"long","longBankrupt":"long","shortBankrupt":"long","taxBase":"long","indicativeTaxRate":"float","indicativeTax":"long","unrealisedTax":"long","unrealisedPnl":"long","unrealisedPnlPcnt":"float","unrealisedRoePcnt":"float","simpleQty":"float","simpleCost":"float","simpleValue":"float","simplePnl":"float","simplePnlPcnt":"float","avgCostPrice":"float","avgEntryPrice":"float","breakEvenPrice":"float","marginCallPrice":"float","liquidationPrice":"float","bankruptPrice":"float","timestamp":"timestamp","lastPrice":"float","lastValue":"long"},"foreignKeys":{"symbol":"instrument"},"attributes":{"account":"sorted","symbol":"grouped","underlying":"grouped"},"filter":{"account":311990},"data":[]}]
+RECEIVED: 2021/02/21 08:04:23 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"partial","keys":["account","symbol"],"types":{"account":"long","symbol":"symbol","currency":"symbol","underlying":"symbol","quoteCurrency":"symbol","commission":"float","initMarginReq":"float","maintMarginReq":"float","riskLimit":"long","leverage":"float","crossMargin":"boolean","deleveragePercentile":"float","rebalancedPnl":"long","prevRealisedPnl":"long","prevUnrealisedPnl":"long","prevClosePrice":"float","openingTimestamp":"timestamp","openingQty":"long","openingCost":"long","openingComm":"long","openOrderBuyQty":"long","openOrderBuyCost":"long","openOrderBuyPremium":"long","openOrderSellQty":"long","openOrderSellCost":"long","openOrderSellPremium":"long","execBuyQty":"long","execBuyCost":"long","execSellQty":"long","execSellCost":"long","execQty":"long","execCost":"long","execComm":"long","currentTimestamp":"timestamp","currentQty":"long","currentCost":"long","currentComm":"long","realisedCost":"long","unrealisedCost":"long","grossOpenCost":"long","grossOpenPremium":"long","grossExecCost":"long","isOpen":"boolean","markPrice":"float","markValue":"long","riskValue":"long","homeNotional":"float","foreignNotional":"float","posState":"symbol","posCost":"long","posCost2":"long","posCross":"long","posInit":"long","posComm":"long","posLoss":"long","posMargin":"long","posMaint":"long","posAllowance":"long","taxableMargin":"long","initMargin":"long","maintMargin":"long","sessionMargin":"long","targetExcessMargin":"long","varMargin":"long","realisedGrossPnl":"long","realisedTax":"long","realisedPnl":"long","unrealisedGrossPnl":"long","longBankrupt":"long","shortBankrupt":"long","taxBase":"long","indicativeTaxRate":"float","indicativeTax":"long","unrealisedTax":"long","unrealisedPnl":"long","unrealisedPnlPcnt":"float","unrealisedRoePcnt":"float","simpleQty":"float","simpleCost":"float","simpleValue":"float","simplePnl":"float","simplePnlPcnt":"float","avgCostPrice":"float","avgEntryPrice":"float","breakEvenPrice":"float","marginCallPrice":"float","liquidationPrice":"float","bankruptPrice":"float","timestamp":"timestamp","lastPrice":"float","lastValue":"long"},"foreignKeys":{"symbol":"instrument"},"attributes":{"account":"sorted","symbol":"grouped","underlying":"grouped"},"filter":{"account":1094118},"data":[{"account":1094118,"symbol":"XBTUSD","currency":"XBt","underlying":"XBT","quoteCurrency":"USD","commission":0.00075,"initMarginReq":1,"maintMarginReq":0.0035,"riskLimit":20000000000,"leverage":1,"crossMargin":false,"deleveragePercentile":null,"rebalancedPnl":0,"prevRealisedPnl":0,"prevUnrealisedPnl":0,"prevClosePrice":56371.32,"openingTimestamp":"2021-02-21T02:00:00.000Z","openingQty":0,"openingCost":0,"openingComm":0,"openOrderBuyQty":100,"openOrderBuyCost":-333300,"openOrderBuyPremium":0,"openOrderSellQty":0,"openOrderSellCost":0,"openOrderSellPremium":0,"execBuyQty":0,"execBuyCost":0,"execSellQty":0,"execSellCost":0,"execQty":0,"execCost":0,"execComm":0,"currentTimestamp":"2021-02-21T02:34:20.388Z","currentQty":0,"currentCost":0,"currentComm":0,"realisedCost":0,"unrealisedCost":0,"grossOpenCost":333300,"grossOpenPremium":0,"grossExecCost":0,"isOpen":false,"markPrice":56512.8,"markValue":0,"riskValue":333300,"homeNotional":0,"foreignNotional":0,"posState":"","posCost":0,"posCost2":0,"posCross":0,"posInit":0,"posComm":0,"posLoss":0,"posMargin":0,"posMaint":0,"posAllowance":0,"taxableMargin":0,"initMargin":334050,"maintMargin":0,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedGrossPnl":0,"realisedTax":0,"realisedPnl":0,"unrealisedGrossPnl":0,"longBankrupt":0,"shortBankrupt":0,"taxBase":0,"indicativeTaxRate":null,"indicativeTax":0,"unrealisedTax":0,"unrealisedPnl":0,"unrealisedPnlPcnt":0,"unrealisedRoePcnt":0,"simpleQty":null,"simpleCost":null,"simpleValue":null,"simplePnl":null,"simplePnlPcnt":null,"avgCostPrice":null,"avgEntryPrice":null,"breakEvenPrice":null,"marginCallPrice":null,"liquidationPrice":null,"bankruptPrice":null,"timestamp":"2021-02-21T02:34:20.388Z","lastPrice":56512.8,"lastValue":0}]}]
+RECEIVED: 2021/02/21 08:04:24 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"insert","data":[{"account":311990,"symbol":"XBTUSD","currency":"XBt","underlying":"XBT","quoteCurrency":"","commission":null,"initMarginReq":null,"maintMarginReq":null,"riskLimit":null,"leverage":null,"crossMargin":true,"deleveragePercentile":null,"rebalancedPnl":null,"prevRealisedPnl":null,"prevUnrealisedPnl":null,"prevClosePrice":null,"openingTimestamp":null,"openingQty":null,"openingCost":null,"openingComm":null,"openOrderBuyQty":null,"openOrderBuyCost":null,"openOrderBuyPremium":null,"openOrderSellQty":null,"openOrderSellCost":null,"openOrderSellPremium":null,"execBuyQty":null,"execBuyCost":null,"execSellQty":null,"execSellCost":null,"execQty":null,"execCost":null,"execComm":null,"currentTimestamp":null,"currentQty":null,"currentCost":null,"currentComm":null,"realisedCost":null,"unrealisedCost":null,"grossOpenCost":null,"grossOpenPremium":null,"grossExecCost":null,"isOpen":false,"markPrice":null,"markValue":null,"riskValue":null,"homeNotional":null,"foreignNotional":null,"posState":"","posCost":null,"posCost2":null,"posCross":null,"posInit":null,"posComm":null,"posLoss":null,"posMargin":null,"posMaint":null,"posAllowance":null,"taxableMargin":null,"initMargin":null,"maintMargin":null,"sessionMargin":null,"targetExcessMargin":null,"varMargin":null,"realisedGrossPnl":null,"realisedTax":null,"realisedPnl":null,"unrealisedGrossPnl":null,"longBankrupt":null,"shortBankrupt":null,"taxBase":null,"indicativeTaxRate":null,"indicativeTax":null,"unrealisedTax":null,"unrealisedPnl":null,"unrealisedPnlPcnt":null,"unrealisedRoePcnt":null,"simpleQty":null,"simpleCost":null,"simpleValue":null,"simplePnl":null,"simplePnlPcnt":null,"avgCostPrice":null,"avgEntryPrice":null,"breakEvenPrice":null,"marginCallPrice":null,"liquidationPrice":null,"bankruptPrice":null,"timestamp":null,"lastPrice":null,"lastValue":null}]}]
+RECEIVED: 2021/02/21 08:04:24 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","quoteCurrency":"USD","commission":0.00075,"initMarginReq":1,"maintMarginReq":0.0035,"riskLimit":20000000000,"leverage":1,"crossMargin":false,"rebalancedPnl":0,"prevRealisedPnl":0,"prevUnrealisedPnl":0,"prevClosePrice":56335.81,"openingTimestamp":"2021-02-21T02:00:00.000Z","openingQty":0,"openingCost":0,"openingComm":0,"openOrderBuyQty":0,"openOrderBuyCost":0,"openOrderBuyPremium":0,"openOrderSellQty":0,"openOrderSellCost":0,"openOrderSellPremium":0,"execBuyQty":0,"execBuyCost":0,"execSellQty":0,"execSellCost":0,"execQty":0,"execCost":0,"execComm":0,"currentTimestamp":"2021-02-21T02:34:24.395Z","currentQty":0,"currentCost":0,"currentComm":0,"realisedCost":0,"unrealisedCost":0,"grossOpenCost":0,"grossOpenPremium":0,"grossExecCost":0,"markValue":0,"riskValue":0,"homeNotional":0,"foreignNotional":0,"posCost":0,"posCost2":0,"posCross":0,"posInit":0,"posComm":0,"posLoss":0,"posMargin":0,"posMaint":0,"posAllowance":0,"taxableMargin":0,"initMargin":0,"maintMargin":0,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedGrossPnl":0,"realisedTax":0,"realisedPnl":0,"unrealisedGrossPnl":0,"longBankrupt":0,"shortBankrupt":0,"taxBase":0,"indicativeTax":0,"unrealisedTax":0,"unrealisedPnl":0,"unrealisedPnlPcnt":0,"unrealisedRoePcnt":0,"timestamp":"2021-02-21T02:34:24.395Z","lastValue":0,"currency":"XBt","markPrice":null,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:24 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"order","action":"insert","data":[{"orderID":"6128e6f4-18b3-470c-9cab-020548766eeb","clOrdID":"fe290b17-52ae-4b4c-8f72-921ef26b9380","clOrdLinkID":"","account":311990,"symbol":"XBTUSD","side":"Buy","simpleOrderQty":null,"orderQty":100,"price":30000,"displayQty":null,"stopPx":null,"pegOffsetValue":null,"pegPriceType":"","currency":"USD","settlCurrency":"XBt","ordType":"Limit","timeInForce":"GoodTillCancel","execInst":"","contingencyType":"","exDestination":"XBME","ordStatus":"New","triggered":"","workingIndicator":true,"ordRejReason":"","simpleLeavesQty":null,"leavesQty":100,"simpleCumQty":null,"cumQty":0,"avgPx":null,"multiLegReportingType":"SingleSecurity","text":"Submission from www.bitmex.com","transactTime":"2021-02-21T02:34:24.678Z","timestamp":"2021-02-21T02:34:24.678Z"}]}]
+RECEIVED: 2021/02/21 08:04:24 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","openOrderBuyQty":100,"openOrderBuyCost":-333300,"grossOpenCost":333300,"markPrice":56512.8,"riskValue":333300,"initMargin":334050,"timestamp":"2021-02-21T02:34:24.678Z","currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:24 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"margin","action":"update","data":[{"account":311990,"grossOpenCost":333300,"riskValue":333300,"initMargin":334050,"marginUsedPcnt":0.0252,"excessMargin":12938085,"availableMargin":12938085,"withdrawableMargin":12938085,"timestamp":"2021-02-21T02:34:24.679Z","currency":"XBt"}]}]
+RECEIVED: 2021/02/21 08:04:25 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:25.388Z","markPrice":56523.42,"timestamp":"2021-02-21T02:34:25.388Z","lastPrice":56523.42,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:25 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:25.388Z","markPrice":56523.42,"timestamp":"2021-02-21T02:34:25.388Z","lastPrice":56523.42,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:30 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:30.388Z","markPrice":56522.13,"timestamp":"2021-02-21T02:34:30.388Z","lastPrice":56522.13,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:30 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:30.388Z","markPrice":56522.13,"timestamp":"2021-02-21T02:34:30.388Z","lastPrice":56522.13,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:35 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:35.388Z","markPrice":56523.31,"timestamp":"2021-02-21T02:34:35.388Z","lastPrice":56523.31,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:35 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:35.388Z","markPrice":56523.31,"timestamp":"2021-02-21T02:34:35.388Z","lastPrice":56523.31,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:40 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:40.389Z","markPrice":56524.15,"timestamp":"2021-02-21T02:34:40.389Z","lastPrice":56524.15,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:40 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:40.389Z","markPrice":56524.15,"timestamp":"2021-02-21T02:34:40.389Z","lastPrice":56524.15,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:45 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:45.388Z","markPrice":56521.9,"timestamp":"2021-02-21T02:34:45.388Z","lastPrice":56521.9,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:45 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:45.388Z","markPrice":56521.9,"timestamp":"2021-02-21T02:34:45.388Z","lastPrice":56521.9,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:50 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:50.402Z","markPrice":56516.09,"timestamp":"2021-02-21T02:34:50.402Z","lastPrice":56516.09,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:50 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:50.402Z","markPrice":56516.09,"timestamp":"2021-02-21T02:34:50.402Z","lastPrice":56516.09,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:55 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:55.388Z","markPrice":56505.94,"timestamp":"2021-02-21T02:34:55.388Z","lastPrice":56505.94,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:04:55 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:34:55.388Z","markPrice":56505.94,"timestamp":"2021-02-21T02:34:55.388Z","lastPrice":56505.94,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:00 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:00.388Z","markPrice":56503.97,"timestamp":"2021-02-21T02:35:00.388Z","lastPrice":56503.97,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:00 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:00.388Z","markPrice":56503.97,"timestamp":"2021-02-21T02:35:00.388Z","lastPrice":56503.97,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:05 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:05.388Z","markPrice":56503.43,"timestamp":"2021-02-21T02:35:05.388Z","lastPrice":56503.43,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:05 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:05.388Z","markPrice":56503.43,"timestamp":"2021-02-21T02:35:05.388Z","lastPrice":56503.43,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:10 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:10.388Z","markPrice":56498.47,"timestamp":"2021-02-21T02:35:10.388Z","lastPrice":56498.47,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:10 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:10.388Z","markPrice":56498.47,"timestamp":"2021-02-21T02:35:10.388Z","lastPrice":56498.47,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:15 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:15.388Z","markPrice":56492.62,"timestamp":"2021-02-21T02:35:15.388Z","lastPrice":56492.62,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:15 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:15.388Z","markPrice":56492.62,"timestamp":"2021-02-21T02:35:15.388Z","lastPrice":56492.62,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:20 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:20.388Z","markPrice":56494.53,"timestamp":"2021-02-21T02:35:20.388Z","lastPrice":56494.53,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:20 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:20.388Z","markPrice":56494.53,"timestamp":"2021-02-21T02:35:20.388Z","lastPrice":56494.53,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:25 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:25.393Z","markPrice":56493.36,"timestamp":"2021-02-21T02:35:25.393Z","lastPrice":56493.36,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:25 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:25.393Z","markPrice":56493.36,"timestamp":"2021-02-21T02:35:25.393Z","lastPrice":56493.36,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:30 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:30.388Z","markPrice":56492.26,"timestamp":"2021-02-21T02:35:30.388Z","lastPrice":56492.26,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:30 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:30.388Z","markPrice":56492.26,"timestamp":"2021-02-21T02:35:30.388Z","lastPrice":56492.26,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:35 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:35.391Z","markPrice":56490.39,"timestamp":"2021-02-21T02:35:35.391Z","lastPrice":56490.39,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:35 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:35.391Z","markPrice":56490.39,"timestamp":"2021-02-21T02:35:35.391Z","lastPrice":56490.39,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:40 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:40.388Z","markPrice":56448.39,"timestamp":"2021-02-21T02:35:40.388Z","lastPrice":56448.39,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:40 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:40.388Z","markPrice":56448.39,"timestamp":"2021-02-21T02:35:40.388Z","lastPrice":56448.39,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:45 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:45.388Z","markPrice":56448.86,"timestamp":"2021-02-21T02:35:45.388Z","lastPrice":56448.86,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:45 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:45.388Z","markPrice":56448.86,"timestamp":"2021-02-21T02:35:45.388Z","lastPrice":56448.86,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:50 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:50.389Z","markPrice":56444.57,"timestamp":"2021-02-21T02:35:50.389Z","lastPrice":56444.57,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:50 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:50.389Z","markPrice":56444.57,"timestamp":"2021-02-21T02:35:50.389Z","lastPrice":56444.57,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:55 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:55.390Z","markPrice":56422.37,"timestamp":"2021-02-21T02:35:55.390Z","lastPrice":56422.37,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:05:55 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:35:55.390Z","markPrice":56422.37,"timestamp":"2021-02-21T02:35:55.390Z","lastPrice":56422.37,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:06:00 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:36:00.394Z","markPrice":56418.71,"timestamp":"2021-02-21T02:36:00.394Z","lastPrice":56418.71,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:06:00 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:36:00.394Z","markPrice":56418.71,"timestamp":"2021-02-21T02:36:00.394Z","lastPrice":56418.71,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:06:05 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:36:05.388Z","markPrice":56413.36,"timestamp":"2021-02-21T02:36:05.388Z","lastPrice":56413.36,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:06:05 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:36:05.388Z","markPrice":56413.36,"timestamp":"2021-02-21T02:36:05.388Z","lastPrice":56413.36,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:06:10 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"table":"position","action":"update","data":[{"account":311990,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:36:10.388Z","markPrice":56423.29,"timestamp":"2021-02-21T02:36:10.388Z","lastPrice":56423.29,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/21 08:06:10 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"table":"position","action":"update","data":[{"account":1094118,"symbol":"XBTUSD","currentTimestamp":"2021-02-21T02:36:10.388Z","markPrice":56423.29,"timestamp":"2021-02-21T02:36:10.388Z","lastPrice":56423.29,"currency":"XBt","currentQty":0,"liquidationPrice":null}]}]
+RECEIVED: 2021/02/24 07:22:12 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/24 07:22:13 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:52:13.842Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:22:13 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:52:13.843Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:22:13 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614131945,"539293022ab28ce3509dd25af8322679c66e522f272935185492fce0080b0db7"]}}]
+RECEIVED: 2021/02/24 07:22:13 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/02/24 07:22:13 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614131945,"a500e22d4ba387f20cf33b18f0d7785cfbc52352c4d0095bf9a98d0c46808a40"]}}]
+RECEIVED: 2021/02/24 07:22:13 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/02/24 07:22:28 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/24 07:22:29 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:52:29.842Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:22:29 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:52:29.843Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:22:29 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614131961,"1e378126236aa45d95578db0aa4f03932b13624c8ca3a2c411e285aec26ae811"]}}]
+RECEIVED: 2021/02/24 07:22:29 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/02/24 07:22:29 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614131961,"5519b3871ac82189919a4189c765cf993bf98175d1e00ae3e5acd94e0e34a355"]}}]
+RECEIVED: 2021/02/24 07:22:29 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/02/24 07:22:46 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/24 07:22:47 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:52:47.784Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:22:47 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:52:47.785Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:22:47 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614131979,"67043c34cb2c01fb84d9c458e6e944595cae22152c85e129bf59ffb0460ff0fc"]}}]
+RECEIVED: 2021/02/24 07:22:47 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/02/24 07:22:47 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614131979,"f6c68cf204948501802f038501aa215daece041cf594862e51c889215a42c81a"]}}]
+RECEIVED: 2021/02/24 07:22:47 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/02/24 07:22:59 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/24 07:23:00 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:53:00.861Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:23:00 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:53:00.862Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:23:00 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614131992,"6f7b7445bc8bd9eeb85451f1290b38acf527d39611c967baa0db8f89a2b6e0b7"]}}]
+RECEIVED: 2021/02/24 07:23:00 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/02/24 07:23:00 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614131992,"ee818b8ff08f5425134e60232479e440ec930b9d6de18605dfae14b0c1e74030"]}}]
+RECEIVED: 2021/02/24 07:23:00 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/02/24 07:23:09 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/02/24 07:23:10 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:53:10.052Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:23:10 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-16T22:36:46.000Z","timestamp":"2021-02-24T01:53:10.053Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/02/24 07:23:10 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614132001,"0e679d83dd0e198863dd8e45e7bea421db42f5b565a42933558058c707e64b05"]}}]
+RECEIVED: 2021/02/24 07:23:10 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/02/24 07:23:10 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614132001,"c1959b4fe817fcf9468e9a4d29e35b7d7cb7e5bf44bc3d6cb230581b11c2aeff"]}}]
+RECEIVED: 2021/02/24 07:23:10 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/03/01 23:15:30 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/03/01 23:15:39 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/03/01 23:15:41 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-24T22:47:12.000Z","timestamp":"2021-03-01T17:45:41.562Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/03/01 23:15:41 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-02-24T22:47:12.000Z","timestamp":"2021-03-01T17:45:41.565Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/03/01 23:15:41 websocket.go:138: Length of channel: 1 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1614621153,"5dda6f33ed86116530fbbee8b357e4f9eddf2677c8e4f8c78862675af4d19dae"]}}]
+RECEIVED: 2021/03/01 23:15:41 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/03/01 23:15:41 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1614621153,"1c252ccce051518408e6753004272d2bd5956eac8c4658cd9c763d23dd962546"]}}]
+RECEIVED: 2021/03/01 23:15:41 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/03/13 14:24:07 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/03/13 14:24:10 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-03-12T20:15:39.000Z","timestamp":"2021-03-13T08:54:10.710Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/03/13 14:24:10 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-03-12T20:15:39.000Z","timestamp":"2021-03-13T08:54:10.711Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/03/13 14:24:10 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1615626062,"abec54966dcc86d7fd4a5c4a727590480574512bed93735ee27210bf160658fa"]}}]
+RECEIVED: 2021/03/13 14:24:10 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/03/13 14:24:10 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1615626062,"de4ea3615c91e6860145022dafc45fa53147c5ff1bcc97e669c9611bfb263a8c"]}}]
+RECEIVED: 2021/03/13 14:24:10 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/03/13 14:24:27 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/03/13 14:24:29 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-03-12T20:15:39.000Z","timestamp":"2021-03-13T08:54:29.490Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/03/13 14:24:29 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-03-12T20:15:39.000Z","timestamp":"2021-03-13T08:54:29.491Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/03/13 14:24:29 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1615626081,"bf3dab49f34b91432a7ff7cb3ff3e011e01da91e444ebeec63285e4590a3a57a"]}}]
+RECEIVED: 2021/03/13 14:24:29 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/03/13 14:24:29 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1615626081,"9b7c76b13eb0eff547e908b28699d39ed769813a44c2e2e8fe4bbc4c1f92113d"]}}]
+RECEIVED: 2021/03/13 14:24:29 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/04/06 12:53:42 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/06 12:53:44 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-03T01:28:04.000Z","timestamp":"2021-04-06T07:23:44.313Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/06 12:53:44 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-03T01:28:04.000Z","timestamp":"2021-04-06T07:23:44.314Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/06 12:53:44 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1617694235,"4bc46b70fae50b3a46bf18e8e6a010d68074406d3a72746c2c85b0953a4b16fb"]}}]
+RECEIVED: 2021/04/06 12:53:44 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/04/06 12:53:44 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1617694235,"3a10121ee2793aeca5b3a9f52ff3a60462bb7d047f097ba582725a35d50235a4"]}}]
+RECEIVED: 2021/04/06 12:53:44 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/04/06 19:31:56 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/06 19:31:58 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-03T01:28:04.000Z","timestamp":"2021-04-06T14:01:58.682Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/06 19:31:58 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-03T01:28:04.000Z","timestamp":"2021-04-06T14:01:58.683Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/06 19:31:58 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1617718130,"1d0232a1e67d5ff04de68b5f5d728cd54cb920b06a28b0ef3e798642ffd23973"]}}]
+RECEIVED: 2021/04/06 19:31:58 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/04/06 19:31:58 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1617718130,"b45f968f941d4b7ab127667591f08ee03ea09434da6f0df02ebea4cf8cdbec45"]}}]
+RECEIVED: 2021/04/06 19:31:58 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/04/06 19:32:37 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/06 19:32:39 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-03T01:28:04.000Z","timestamp":"2021-04-06T14:02:39.618Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/06 19:32:39 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-03T01:28:04.000Z","timestamp":"2021-04-06T14:02:39.619Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/06 19:32:39 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1617718171,"3f8cbf348206d3d7803190fd178a8cdce5ce22ba615120dfc97601495e837586"]}}]
+RECEIVED: 2021/04/06 19:32:39 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/04/06 19:32:39 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1617718171,"828ba90aca0c6f5d3a47557238463c1f9fcd06d412d2425beba1ca146466b923"]}}]
+RECEIVED: 2021/04/06 19:32:39 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/04/26 18:43:57 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/26 18:45:19 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/26 18:45:22 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-26T13:15:22.866Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/26 18:45:22 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-26T13:15:22.879Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/26 18:45:22 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619443334,"25e8fa96e01ba9f4248e3ee004ff67fc4925684b030cd216ebb29bfb70a100f6"]}}]
+RECEIVED: 2021/04/26 18:45:22 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/04/26 18:45:22 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619443334,"d0950121fdcd03975c136db09cb83cbd6e242a7b25402b53bfc42e51991a5ac9"]}}]
+RECEIVED: 2021/04/26 18:45:22 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/04/26 18:50:42 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/26 18:53:46 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/26 18:57:17 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/26 19:05:40 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/26 19:07:57 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/27 09:23:19 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/27 09:24:38 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/27 09:24:42 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-27T03:54:42.284Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/27 09:24:42 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-27T03:54:42.285Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/27 09:24:42 websocket.go:138: Length of channel: 1 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619496093,"e996698020bb85cbd675157d37e242433efc54c484d2a41ee063bb5a4266dff8"]}}]
+RECEIVED: 2021/04/27 09:24:42 websocket.go:138: Length of channel: 2 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/04/27 09:24:42 websocket.go:138: Length of channel: 3 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619496093,"81a57d59d325ff735d61f64bf1c5e37edf51fa6c496af9494e9dae1fd139f908"]}}]
+RECEIVED: 2021/04/27 09:24:42 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/04/27 09:25:11 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/27 09:25:13 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-27T03:55:13.701Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/27 09:25:13 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-27T03:55:13.704Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/27 09:25:13 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619496125,"dc05475f03fd89e89830fa4cafe88c92643e49d5540ad36c516ee322e80072c0"]}}]
+RECEIVED: 2021/04/27 09:25:13 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/04/27 09:25:13 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619496125,"7e9d001b6906b52ffe1f2161d5e34c049c239b3952a3d789f64b7e61f73d4f0a"]}}]
+RECEIVED: 2021/04/27 09:25:13 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/04/27 09:25:48 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/27 09:25:51 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-27T03:55:51.613Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/27 09:25:51 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-27T03:55:51.614Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/27 09:25:51 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619496163,"9b0bd5d36fc33e0c03b7c66b1fd47dfd4ca9774016f9aa8a7365bd02976e8a26"]}}]
+RECEIVED: 2021/04/27 09:25:51 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/04/27 09:25:51 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619496163,"5bd5d4213f6d683503a905743a6885084f65998556310b5f11b3f41aafc0a78f"]}}]
+RECEIVED: 2021/04/27 09:25:51 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/04/27 16:30:26 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/04/27 16:30:29 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-27T11:00:29.806Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/27 16:30:29 websocket.go:138: Length of channel: 0 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"info":"Welcome to the BitMEX Realtime API.","version":"2021-04-15T18:39:36.000Z","timestamp":"2021-04-27T11:00:29.808Z","docs":"https://www.bitmex.com/app/wsAPI"}]
+RECEIVED: 2021/04/27 16:30:29 websocket.go:138: Length of channel: 0 Message: [0,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["Kd-jO3Fppp-NepHUaDtFSjcK",1619521641,"0f8adcbed5cd41b908b1050184c54d82c107c76edd4738d41f6b91b0ff7f4996"]}}]
+RECEIVED: 2021/04/27 16:30:29 websocket.go:138: Length of channel: 0 Message: [2,"Kd-jO3Fppp-NepHUaDtFSjcK","hostAccount"]
+RECEIVED: 2021/04/27 16:30:29 websocket.go:138: Length of channel: 1 Message: [0,"-rkFImABn_1JsdVI6d3vehgt","",{"status":401,"error":"Invalid API Key.","meta":{},"request":{"op":"authKeyExpires","args":["-rkFImABn_1JsdVI6d3vehgt",1619521641,"5b3109c402b51b5d17eeb94528540fe1d4b2e18a4a1bfdbc438b74b95804d640"]}}]
+RECEIVED: 2021/04/27 16:30:29 websocket.go:138: Length of channel: 0 Message: [2,"-rkFImABn_1JsdVI6d3vehgt",""]
+RECEIVED: 2021/05/12 10:22:05 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/05/12 10:22:25 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/05/25 18:10:19 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/05/25 18:10:32 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/05/25 18:10:48 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/06/11 18:35:08 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/06/11 18:35:27 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/07/30 20:47:55 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+
+RECEIVED: 2021/09/08 20:45:49 websocket.go:58: 
+
+
+
+##################################################	New Session	##################################################
+
+
+
+

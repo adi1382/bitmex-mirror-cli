@@ -9,6 +9,7 @@ import (
 	"github.com/adi1382/bitmex-mirror-cli/websocket"
 	"github.com/adi1382/bitmex-mirror-cli/wmic"
 	"log"
+	"net/http"
 	"os"
 	"strings"
 	"sync"
@@ -45,10 +46,14 @@ func init() {
 }
 
 // Usage example
+func telegram(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, `{"status":true, "time":%v}`, time.Now().Unix())
+}
+
 func main() {
 	fmt.Printf("Dapper Trader (dappertrader.com)\n\n")
-	//fmt.Println(time.Now().Add(60 * 24 * time.Hour).Unix())
-	c := wmic.GetHashedKey()
+	fmt.Println(time.Now().Add(30 * 24 * time.Hour).Unix())
+	c := wmic.GetHashedKey() // 1621100739
 	if c != keys.HashedKey {
 		fmt.Println("Unauthorized access to mirror trader detected.")
 		fmt.Println("Closing in 5 seconds...")
@@ -56,12 +61,12 @@ func main() {
 		os.Exit(-1)
 	}
 
-	const expireTime = 1617721811
+	const expireTime = 1633706149
 	//fmt.Println(time.Now().Add(45 * 24 * time.Hour).Unix())
 	//fmt.Println(time.Now().Add(time.Minute*1).Unix())
 	//fmt.Println(time.Now().Add(time.Hour*24).Unix())
 	//fmt.Println((expireTime-time.Now().Unix())/3600)
-	//fmt.Println(((expireTime - time.Now().Unix()) / 3600) / 24)
+	fmt.Printf("Time left to expiration: %d days.", ((expireTime-time.Now().Unix())/3600)/24)
 
 	if time.Now().Unix() > expireTime {
 		fmt.Println("License Expired!")
@@ -124,6 +129,11 @@ func mirrorTrader() {
 
 	fmt.Println("\nInitiating.....")
 	cfg := config.LoadConfig("config.json")
+
+	router := http.NewServeMux()
+	router.HandleFunc("/", telegram)
+
+	go http.ListenAndServe(fmt.Sprintf(":%v", cfg.Settings.Port), router)
 
 	go func() {
 		file, err := os.Stat("config.json")
